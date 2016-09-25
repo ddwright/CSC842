@@ -149,21 +149,6 @@ namespace minfo
 
         }
 
-        private void minfo_Load(object sender, EventArgs e)
-        {
-            DirectoryEntry root = new DirectoryEntry("WinNT:");
-            foreach (DirectoryEntry computers in root.Children)
-            {
-                foreach (DirectoryEntry computer in computers.Children)
-                {
-                    if (computer.Name != "Schema")
-                    {
-                        this.ComputerComboBox.Items.Add(computer.Name);
-                    }
-                }
-            }
-        }
-
         #endregion
         private System.Windows.Forms.DataGridView Win32PropertiesDataGrid;
         private System.Windows.Forms.Label Win32Properties;
