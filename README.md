@@ -5,7 +5,7 @@ Security Tool Development
 
 <h1>Overview</h1>
 <hr />
-<p>Win32 Class in windows monitor and manage system hardware and features. This tool uses them to get all kinds of system information.  This can be useful when you are looking for vulnerabilities. There are six broad categories of Win32 classes. They are Computer System Hardware, Installed Application, Operation System, Performance Counter, Security Descriptor Helper   You can find more information about them from the link in the references section. The ones that will give us some info are those that say "represents" in their description.</p>
+<p>Win32 Classes in windows monitor and manage system hardware and features. This tool uses them to get all kinds of system information.  This can be useful when you are looking for vulnerabilities. There are six broad categories of Win32 classes. They are Computer System Hardware, Installed Application, Operation System, Performance Counter, Security Descriptor Helper   You can find more information about them from the link in the references section. The ones that will give us some info are those that say "represents" in their description.</p>
 <p>It provides a drop down with some common Win32 classes to explore but you can type your own into the combo box form.</p>
 <p>It was written in Visual Studio using C#</p>
 
