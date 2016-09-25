@@ -27,7 +27,6 @@ Security Tool Development
 <h1>Future Work</h1>
 <hr />
 <ul>
-<li>Expand the data retrieved using different intelligence sources.</li>
-<li>Add the ability to notify the user when someone tries to connect to a port.</li>
-<li>Add the ability to block a specified IP from connecting to a port.</li>
+<li>Test on a network.</li>
+<li>Export the data to an xml file.</li>
 </ul>
