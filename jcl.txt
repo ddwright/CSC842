@@ -1,0 +1,251 @@
+1                       J E S 2  J O B  L O G  --  S Y S T E M  2 4 6 0  --  N O D E  J E S H
+0
+ 11.55.36 JOB06540 ---- WEDNESDAY, 12 OCT 2016 ----
+ 11.55.36 JOB06540  IRR010I  USERID DHS9172  IS ASSIGNED TO THIS JOB.
+ 11.55.36 JOB06540  ICH70001I DHS9172  LAST ACCESS AT 11:52:50 ON WEDNESDAY, OCTOBER 12, 2016
+ 11.55.36 JOB06540  $HASP373 DHS9172R STARTED - INIT 38   - CLASS T        - SYS 2460
+ 11.55.36 JOB06540  IEF403I DHS9172R - STARTED
+ 11.55.47 JOB06540  -                                      -----TIMINGS (MINS.)------                          -----PAGING COUNTS----
+ 11.55.47 JOB06540  -STEPNAME PROCSTEP    RC   EXCP   CONN       TCB       SRB  CLOCK          SERV  WORKLOAD  PAGE  SWAP   VIO SWAPS
+ 11.55.47 JOB06540  -REXX                 00    201     86       .09       .00     .1        393652  BATCHP       0     0     0     0
+ 11.55.47 JOB06540  IEF404I DHS9172R - ENDED
+ 11.55.47 JOB06540  -DHS9172R ENDED.  NAME-WRIGHT               TOTAL TCB CPU TIME=      .09 TOTAL ELAPSED TIME=    .1 SUBSYS=JES2
+ 11.55.47 JOB06540  $HASP395 DHS9172R ENDED - RC=0000
+0------ JES2 JOB STATISTICS ------
+-  12 OCT 2016 JOB EXECUTION DATE
+-           11 CARDS READ
+-          255 SYSOUT PRINT RECORDS
+-            0 SYSOUT PUNCH RECORDS
+-           21 SYSOUT SPOOL KBYTES
+-         0.18 MINUTES EXECUTION TIME
+         1 //DHS9172R JOB  3206100TM002,WRIGHT,REGION=4M,TIME=2,NOTIFY=DHS9172,    JOB06540
+           //         CLASS=T,
+           //   MSGCLASS=A           INSERTED BY SUBMIT EXIT
+         2 /*JOBPARM  L=999
+         3 /*ROUTE PRINT N2R66
+           //*
+           //*EXX     EXEC PGM=IRXJCL,PARM='JOBCHK DHS* 10'
+         4 //REXX     EXEC PGM=IKJEFT01,PARM='JOBCHK DHS* 10'
+         5 //SYSEXEC  DD   DSN=DHS9172.PDS.EXEC,DISP=SHR
+         6 //SYSTSIN  DD   DUMMY,DCB=(LRECL=80,BLKSIZE=27920,RECFM=FB)
+         7 //SYSTSPRT DD   SYSOUT=A
+ ICH70001I DHS9172  LAST ACCESS AT 11:52:50 ON WEDNESDAY, OCTOBER 12, 2016
+ IEF236I ALLOC. FOR DHS9172R REXX
+ IGD103I SMS ALLOCATED TO DDNAME SYSEXEC
+ IEF237I DMY  ALLOCATED TO SYSTSIN
+ IEF237I JES2 ALLOCATED TO SYSTSPRT
+ IGD101I SMS ALLOCATED TO DDNAME (LOGOUT  )
+         DSN (DHS9172.JOBCHK.CSV                          )
+         STORCLAS (STANDARD) MGMTCLAS (STANDARD) DATACLAS (DEFAULT)
+         VOL SER NOS= HSD024
+ IEF142I DHS9172R REXX - STEP WAS EXECUTED - COND CODE 0000
+ IGD104I DHS9172.PDS.EXEC                             RETAINED,  DDNAME=SYSEXEC
+ IEF285I   DHS9172.DHS9172R.JOB06540.D0000101.?         SYSOUT
+ IGD104I DHS9172.JOBCHK.CSV                           RETAINED,  DDNAME=LOGOUT
+ ************************************************************************************************************************************
+ *                                                                                                                                  *
+ *                                  CENTRAL MANAGEMENT SERVICES - DIVISION OF APPLICATION SYSTEMS                                   *
+ *                                                                                                                                  *
+ *                                                                STORAGE                                                           *
+ *  STEP NAME      REXX         START     11.55.36.20       TYPE       VIRTUAL            TCB     00.00.05.51     TAPE MOUNTS    0  *
+ *  PROGRAM NAME   IKJEFT01     END       11.55.47.44       PROGRAM     372K              SRB     00.00.00.00     DISK MOUNTS    0  *
+ *  DISPATCH PRTY         0     ELAPSED   00.00.11.24       SYSTEM      488K          TRAN/ACTV   00.00.11.22                       *
+ *                                                                                                                                  *
+ *  PERF. GROUP           0                        PAGE IN/OUT           0/       0                                                 *
+ *  SERV. UNS/M           0                        VIO PAGE IN/OUT       0/       0                          CONDITION CODE   0000  *
+ *                                                                                                                                  *
+ *                                                                                                                                  *
+ *                                                           INPUT/OUTPUT                                                           *
+ *                                                                                                                                  *
+ *  DDNAME    UNIT      EXCPS         DDNAME    UNIT      EXCPS         DDNAME    UNIT      EXCPS         DDNAME    UNIT      EXCPS *
+ *                                                                                                                                  *
+ *  SYSEXEC   D52E          2         LOGOUT    E605         43                                                                     *
+ *                                                                                                                                  *
+ *  EXCP TOTALS:           DASD-        45             TAPE-         0                                                              *
+ *                                                                                                                                  *
+ ************************************************************************************************************************************
+ IEF373I STEP/REXX    /START 2016286.1155
+ IEF032I STEP/REXX    /STOP  2016286.1155
+         CPU:     0 HR  00 MIN  05.51 SEC    SRB:     0 HR  00 MIN  00.00 SEC
+         VIRT:   372K  SYS:   488K  EXT:     4964K  SYS:    21580K
+         ATB- REAL:                   436K  SLOTS:                     0K
+              VIRT- ALLOC:      15M SHRD:       0M
+
+ *************************                             KOMAND  ONLINE  COSTING             LEVEL=V700      *************************
+
+                                QUANTITY     RESOURCE                             UNIT           ESTIMATED
+                                MEASURED     DESCRIPTION                          RATE ($)       COST ($)
+
+                                     200     SYSOUT PRINT RECORDS-LOCAL          .15/1000               .03
+                                 .00153      PROCESSOR HOURS                3,282.00/HOUR              5.02
+                                             REQUESTED SERVICE LEVEL MET
+                                             REVENUE FROM COSTING FACTOR        1.15                    .75
+                                             MULTIPLICATION FACTOR              1.00   *               5.05 JOB COST =          5.81
+                                             TABLE USED: FTAB#0D1  VERSION: V700
+
+
+ ************************************************************************************************************************************
+ *                                                                                                                                  *
+ *                                  CENTRAL MANAGEMENT SERVICES - DIVISION OF APPLICATION SYSTEMS          LEVEL=V700               *
+ *                                                                                                                                  *
+ *  JOBNAME     DHS9172R           START     11.55.36.20 - 2016.286 -  10/12/2016         TCB     00.00.05.51     TAPE MOUNTS    0  *
+ *  RDR TIME    11.55.36.14        END       11.55.47.44 - 2016.286 -  10/12/2016         SRB     00.00.00.00     DISK MOUNTS    0  *
+ *  RDR DATE    2016.286           ELAPSED   00.00.11.24                              TRAN/ACTV   00.00.11.22                       *
+ *                                                                                                                                  *
+ *  PERF GROUP            0                        PAGE IN/OUT           0/       0       SERVICE CLASS NAME  BATCH                 *
+ *  SERV. UNS/M           0                        VIO PAGE IN/OUT       0/       0                     COMPLETION STATUS - NORMAL  *
+ *                                                                                                                                  *
+ *  JOB CLASS   T                                  PROGRAMMER    WRIGHT                                          SYSTEM ID    2460  *
+ *                                                                                                                                  *
+ *  JOB NUMBER  JOB06540                           ACCT. DATA   3206100TM002                                     SP7.2.2      JES2  *
+ *                                                                                                                                  *
+ *                                                                                                                                  *
+ *  EXCP TOTALS:           DASD-        45             TAPE-         0                                                              *
+ *                                                                                                                                  *
+ ************************************************************************************************************************************
+ IEF375I  JOB/DHS9172R/START 2016286.1155
+ IEF033I  JOB/DHS9172R/STOP  2016286.1155
+         CPU:     0 HR  00 MIN  05.51 SEC    SRB:     0 HR  00 MIN  00.00 SEC
+1DISPLAYING  JOBS FOR DHS* FOR 10 SECONDS
+ 11:55:36 DHSPA60 IS EXECUTING AND HAS USED 0.86
+ 11:55:36 DHSCICST IS EXECUTING AND HAS USED 65.24
+ 11:55:36 DHSCICST IS EXECUTING AND HAS USED 4.22
+ 11:55:36 DHS9172 IS EXECUTING AND HAS USED 0.01
+ 11:55:36 DHS9075 IS EXECUTING AND HAS USED 944.34
+ 11:55:36 DHS9172 IS EXECUTING AND HAS USED 0.25
+ 11:55:36 DHSPAAI IS EXECUTING AND HAS USED 1.05
+ 11:55:36 DHS9389 IS EXECUTING AND HAS USED 0.28
+ 11:55:36 DHSPAAA IS EXECUTING AND HAS USED 0.29
+ 11:55:36 DHS9206 IS EXECUTING AND HAS USED 0.14
+ 11:55:36 DHSPA1F IS EXECUTING AND HAS USED 6.52
+ 11:55:36 DHS9075 IS EXECUTING AND HAS USED 6.41
+ 11:55:36 DHSPAAR IS EXECUTING AND HAS USED 0.45
+ 11:55:36 DHSPAAU IS EXECUTING AND HAS USED 0.53
+ 11:55:36 DHSPA3E IS EXECUTING AND HAS USED 1.12
+ 11:55:36 DHSPAAQ IS EXECUTING AND HAS USED 4.62
+ 11:55:36 DHS9192 IS EXECUTING AND HAS USED 1.59
+ 11:55:36 DHSCICS IS EXECUTING AND HAS USED 85.90
+ 11:55:36 DHS9104 IS EXECUTING AND HAS USED 9.61
+ 11:55:36 DHSDD20 IS EXECUTING AND HAS USED 0.27
+ 11:55:36 DHSPAAJ IS EXECUTING AND HAS USED 14.63
+ 11:55:36 DHS9192 IS EXECUTING AND HAS USED 2.73
+ 11:55:36 DHSPA99 IS EXECUTING AND HAS USED 1.00
+ 11:55:38 DHSPA60 IS EXECUTING AND HAS USED 0.86
+ 11:55:38 DHSCICST IS EXECUTING AND HAS USED 65.24
+ 11:55:38 DHSCICST IS EXECUTING AND HAS USED 4.22
+ 11:55:38 DHS9172 IS EXECUTING AND HAS USED 1.08
+ 11:55:38 DHS9075 IS EXECUTING AND HAS USED 945.15
+ 11:55:38 DHS9172 IS EXECUTING AND HAS USED 0.25
+ 11:55:38 DHSPAAI IS EXECUTING AND HAS USED 1.05
+ 11:55:38 DHS9389 IS EXECUTING AND HAS USED 0.28
+ 11:55:38 DHSPAAA IS EXECUTING AND HAS USED 0.29
+ 11:55:38 DHS9206 IS EXECUTING AND HAS USED 0.14
+ 11:55:38 DHSPA1F IS EXECUTING AND HAS USED 6.52
+ 11:55:38 DHS9075 IS EXECUTING AND HAS USED 6.41
+ 11:55:38 DHSPAAR IS EXECUTING AND HAS USED 0.45
+ 11:55:38 DHSPAAU IS EXECUTING AND HAS USED 0.53
+ 11:55:38 DHSPA3E IS EXECUTING AND HAS USED 1.12
+ 11:55:38 DHSPAAQ IS EXECUTING AND HAS USED 4.62
+ 11:55:38 DHS9192 IS EXECUTING AND HAS USED 1.63
+ 11:55:38 DHSCICS IS EXECUTING AND HAS USED 85.90
+ 11:55:38 DHS9104 IS EXECUTING AND HAS USED 9.61
+ 11:55:38 DHSDD20 IS EXECUTING AND HAS USED 0.27
+ 11:55:38 DHSPAAJ IS EXECUTING AND HAS USED 14.63
+ 11:55:38 DHS9192 IS EXECUTING AND HAS USED 2.73
+ 11:55:38 DHSPA99 IS EXECUTING AND HAS USED 1.00
+ 11:55:40 DHSPA60 IS EXECUTING AND HAS USED 0.86
+ 11:55:40 DHSCICST IS EXECUTING AND HAS USED 65.24
+ 11:55:40 DHSCICST IS EXECUTING AND HAS USED 4.22
+ 11:55:40 DHS9172 IS EXECUTING AND HAS USED 2.15
+ 11:55:40 DHS9075 IS EXECUTING AND HAS USED 946.06
+ 11:55:40 DHS9172 IS EXECUTING AND HAS USED 0.27
+ 11:55:40 DHSPAAI IS EXECUTING AND HAS USED 1.05
+ 11:55:40 DHS9389 IS EXECUTING AND HAS USED 0.28
+ 11:55:40 DHSPAAA IS EXECUTING AND HAS USED 0.29
+111:55:40 DHS9206 IS EXECUTING AND HAS USED 0.14
+ 11:55:40 DHSPA1F IS EXECUTING AND HAS USED 6.52
+ 11:55:40 DHS9075 IS EXECUTING AND HAS USED 6.41
+ 11:55:40 DHSPAAR IS EXECUTING AND HAS USED 0.45
+ 11:55:40 DHSPAAU IS EXECUTING AND HAS USED 0.53
+ 11:55:40 DHSPA3E IS EXECUTING AND HAS USED 1.12
+ 11:55:40 DHSPAAQ IS EXECUTING AND HAS USED 4.62
+ 11:55:40 DHS9192 IS EXECUTING AND HAS USED 1.67
+ 11:55:40 DHSCICS IS EXECUTING AND HAS USED 85.91
+ 11:55:40 DHS9104 IS EXECUTING AND HAS USED 9.61
+ 11:55:40 DHSDD20 IS EXECUTING AND HAS USED 0.27
+ 11:55:40 DHSPAAJ IS EXECUTING AND HAS USED 14.63
+ 11:55:40 DHS9192 IS EXECUTING AND HAS USED 2.73
+ 11:55:40 DHSPA99 IS EXECUTING AND HAS USED 1.00
+ 11:55:43 DHSPA60 IS EXECUTING AND HAS USED 0.86
+ 11:55:43 DHSCICST IS EXECUTING AND HAS USED 65.24
+ 11:55:43 DHSCICST IS EXECUTING AND HAS USED 4.23
+ 11:55:43 DHS9172 IS EXECUTING AND HAS USED 3.33
+ 11:55:43 DHS9075 IS EXECUTING AND HAS USED 946.97
+ 11:55:43 DHS9172 IS EXECUTING AND HAS USED 0.30
+ 11:55:43 DHSPAAI IS EXECUTING AND HAS USED 1.05
+ 11:55:43 DHS9389 IS EXECUTING AND HAS USED 0.28
+ 11:55:43 DHSPAAA IS EXECUTING AND HAS USED 0.29
+ 11:55:43 DHS9206 IS EXECUTING AND HAS USED 0.14
+ 11:55:43 DHSPA1F IS EXECUTING AND HAS USED 6.52
+ 11:55:43 DHS9075 IS EXECUTING AND HAS USED 6.41
+ 11:55:43 DHSPAAR IS EXECUTING AND HAS USED 0.45
+ 11:55:43 DHSPAAU IS EXECUTING AND HAS USED 0.53
+ 11:55:43 DHSPA3E IS EXECUTING AND HAS USED 1.12
+ 11:55:43 DHSPAAQ IS EXECUTING AND HAS USED 4.62
+ 11:55:43 DHS9192 IS EXECUTING AND HAS USED 1.72
+ 11:55:43 DHSCICS IS EXECUTING AND HAS USED 85.91
+ 11:55:43 DHS9104 IS EXECUTING AND HAS USED 9.61
+ 11:55:43 DHSDD20 IS EXECUTING AND HAS USED 0.27
+ 11:55:43 DHSPAAJ IS EXECUTING AND HAS USED 14.63
+ 11:55:43 DHS9192 IS EXECUTING AND HAS USED 2.73
+ 11:55:43 DHSPA99 IS EXECUTING AND HAS USED 1.00
+ 11:55:45 DHSPA60 IS EXECUTING AND HAS USED 0.86
+ 11:55:45 DHSCICST IS EXECUTING AND HAS USED 65.24
+ 11:55:45 DHSCICST IS EXECUTING AND HAS USED 4.23
+ 11:55:45 DHS9172 IS EXECUTING AND HAS USED 4.34
+ 11:55:45 DHS9075 IS EXECUTING AND HAS USED 947.86
+ 11:55:45 DHS9172 IS EXECUTING AND HAS USED 0.30
+ 11:55:45 DHSPAAI IS EXECUTING AND HAS USED 1.05
+ 11:55:45 DHS9389 IS EXECUTING AND HAS USED 0.28
+ 11:55:45 DHSPAAA IS EXECUTING AND HAS USED 0.29
+ 11:55:45 DHS9206 IS EXECUTING AND HAS USED 0.14
+ 11:55:45 DHSPA1F IS EXECUTING AND HAS USED 6.52
+ 11:55:45 DHS9075 IS EXECUTING AND HAS USED 6.41
+ 11:55:45 DHSPAAR IS EXECUTING AND HAS USED 0.45
+ 11:55:45 DHSPAAU IS EXECUTING AND HAS USED 0.53
+ 11:55:45 DHSPA3E IS EXECUTING AND HAS USED 1.12
+ 11:55:45 DHSPAAQ IS EXECUTING AND HAS USED 4.62
+ 11:55:45 DHS9192 IS EXECUTING AND HAS USED 1.76
+ 11:55:45 DHSCICS IS EXECUTING AND HAS USED 85.94
+ 11:55:45 DHS9104 IS EXECUTING AND HAS USED 9.61
+111:55:45 DHSDD20 IS EXECUTING AND HAS USED 0.27
+ 11:55:45 DHSPAAJ IS EXECUTING AND HAS USED 14.63
+ 11:55:45 DHS9192 IS EXECUTING AND HAS USED 2.73
+ 11:55:45 DHSPA99 IS EXECUTING AND HAS USED 1.00
+ 11:55:47 DHSPA60 IS EXECUTING AND HAS USED 0.86
+ 11:55:47 DHSCICST IS EXECUTING AND HAS USED 65.24
+ 11:55:47 DHSCICST IS EXECUTING AND HAS USED 4.23
+ 11:55:47 DHS9172 IS EXECUTING AND HAS USED 5.48
+ 11:55:47 DHS9075 IS EXECUTING AND HAS USED 948.86
+ 11:55:47 DHS9172 IS EXECUTING AND HAS USED 0.30
+ 11:55:47 DHSPAAI IS EXECUTING AND HAS USED 1.05
+ 11:55:47 DHS9389 IS EXECUTING AND HAS USED 0.28
+ 11:55:47 DHSPAAA IS EXECUTING AND HAS USED 0.29
+ 11:55:47 DHS9206 IS EXECUTING AND HAS USED 0.14
+ 11:55:47 DHSPA1F IS EXECUTING AND HAS USED 6.52
+ 11:55:47 DHS9075 IS EXECUTING AND HAS USED 6.41
+ 11:55:47 DHSPAAR IS EXECUTING AND HAS USED 0.45
+ 11:55:47 DHSPAAU IS EXECUTING AND HAS USED 0.53
+ 11:55:47 DHSPA3E IS EXECUTING AND HAS USED 1.12
+ 11:55:47 DHSPAAQ IS EXECUTING AND HAS USED 4.62
+ 11:55:47 DHS9192 IS EXECUTING AND HAS USED 1.81
+ 11:55:47 DHSCICS IS EXECUTING AND HAS USED 85.95
+ 11:55:47 DHS9104 IS EXECUTING AND HAS USED 9.61
+ 11:55:47 DHSDD20 IS EXECUTING AND HAS USED 0.27
+ 11:55:47 DHSPAAJ IS EXECUTING AND HAS USED 14.63
+ 11:55:47 DHS9192 IS EXECUTING AND HAS USED 2.73
+ 11:55:47 DHSPA99 IS EXECUTING AND HAS USED 1.00
+ EXECUTION COMPLETE
+  FILE LOGOUT NOT FREED, DATA SET IS OPEN
+ READY
+ END
