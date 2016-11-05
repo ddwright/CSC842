@@ -36,29 +36,7 @@ One of the imputs is the SSN you wish to look for.
 <li>Output to job listing.</li>
 <li>Formatted reports listing the questionable access</li>
 <p>
-
 Note the CPU time to read all of the records and process them is only .00019 hours.
-
-                                QUANTITY     RESOURCE                             UNIT           ESTIMATED
-
-                                MEASURED     DESCRIPTION                          RATE ($)       COST ($)
-
-
-
-                                     226     JCL / DATA READ INTERNAL            .15/1000               .03
-
-                                   1,990     SYSOUT PRINT RECORDS-LOCAL          .15/1000               .31
-
-                                 .00019      PROCESSOR HOURS                3,282.00/HOUR               .62
-
-                                             REQUESTED SHIFT MET
-
-                                             REVENUE FROM COSTING FACTOR         .25                  - .72
-
-                                             MULTIPLICATION FACTOR              1.00   *                .96 JOB COST =           .24
-
-                                             TABLE USED: FTAB#0D1  VERSION: V700
-
 </p>
 <h1>References</h1>
 <hr />
