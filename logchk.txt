@@ -1,0 +1,273 @@
+//DHS9172T JOB  3206100TM002,WRIGHT,REGION=6M,TIME=2,NOTIFY=DHS9172,
+//         CLASS=T
+/*JOBPARM  L=999
+//LIB JCLLIB ORDER=DHS.PROCLIB
+/*ROUTE PRINT N2R66
+//**********************************************************************
+//STEP10   EXEC MHEZYPLS
+//REPORTA  DD  SYSOUT=(Y,,SLNH)
+//REPORTB  DD  SYSOUT=(Y,,SLNH)
+//REPORTC  DD  SYSOUT=(Y,,SLNH)
+//REPORTEX DD  SYSOUT=(Y,,SLNH)
+//TIMETRAN DD  DSN=DHS.AM027BP1.TK21.D201513,UNIT=VTAPE,BUFNO=20,
+//         DISP=OLD
+//         DD  DSN=DHS.AM027BP1.TK31.D201514,UNIT=VTAPE,BUFNO=20,
+//         DISP=OLD
+//         DD  DSN=DHS.AM027BP1.TK21.D201515,UNIT=VTAPE,BUFNO=20,
+//         DISP=OLD
+//         DD  DSN=DHS.AM027BP1.TK31.D201516,UNIT=VTAPE,BUFNO=20,
+//         DISP=OLD
+//         DD  DSN=DHS.AM027BP1.TK21.D201517,UNIT=VTAPE,BUFNO=20,
+//         DISP=OLD
+//         DD  DSN=DHS.AM027BP1.TK31.D201518,UNIT=VTAPE,BUFNO=20,
+//         DISP=OLD
+//         DD  DSN=DHS.AM027BP1.TK21.D201519,UNIT=VTAPE,BUFNO=20,
+//         DISP=OLD
+//         DD  DSN=DHS.AM027BP1.TK31.D201520,UNIT=VTAPE,BUFNO=20,
+//         DISP=OLD
+//         DD  DSN=DHS.AM027BP1.TK21.D201521,UNIT=VTAPE,BUFNO=20,
+//         DISP=OLD
+//         DD  DSN=DHS.AM027BP1.TK31.D201522,UNIT=VTAPE,BUFNO=20,
+//         DISP=OLD
+//         DD  DSN=DHS.AM027BP1.TK21.D201523,UNIT=VTAPE,BUFNO=20,
+//         DISP=OLD
+//         DD  DSN=DHS.AM027BP1.TK31.D201524,UNIT=VTAPE,BUFNO=20,
+//         DISP=OLD
+//         DD  DSN=DHS.AM027BP1.TK21.D201601,UNIT=VTAPE,BUFNO=20,
+//         DISP=OLD
+//         DD  DSN=DHS.AM027BP1.TK31.D201602,UNIT=VTAPE,BUFNO=20,
+//         DISP=OLD
+//INSEC    DD  DSN=DHS9172.OUTSEC2,DISP=SHR,BUFNO=20
+//SYSIN  DD *
+PARM DEBUG(CLIST XREF SHORT)                                             1/20/92
+*
+FILE REPORTA  PRINTER
+FILE REPORTB  PRINTER
+FILE REPORTC  PRINTER
+FILE REPORTEX PRINTER
+*
+FILE TIMETRAN VB (6661 32760)
+TT-TRAN-FIX         1 6654 A
+%EZDAATTENY
+%EZTIMOFFRY
+%EZRETROCHY
+%EZDAEXCEPS
+TT-TRAN-READ        9 6653 A
+*
+FILE INSEC
+*    %EZPASEC
+    SC-EZPASEC           1 268  A                                                              
+    SC-KEY               1  38  A                                                              
+    SC-DEPARTMENT        1   2  A                                                              
+    SC-FACILITY          3   3  A                                                              
+    SC-INCLUDE-GROUP     6  20  A                                                              
+    SC-ACTION           26   4  A                                                              
+    SC-GROUP            26   3  A                                                              
+    SC-USERID           30   8  A                                                              
+    SC-GROUP-ACTION     30   4  A                                                              
+    SC-ACTIVE           38   1  A                                                              
+    SC-EXCLUDE-GROUP    39  20  A                                                              
+    SC-AUTH-LEVEL       59   2  A                                                              
+    SC-PRINTER-ID       61   8  A                                                              
+    SC-USER-SSN         69   9  A                                                              
+    SC-LOCK-MESSAGE     69  45  A                                                              
+    SC-USER-NAME        78  19  A                                                              
+    SC-USER-PHONE       97  10  A                                                              
+    SC-USER-LOCATION   107  20  A                                                              
+    SC-PAY-PERIOD       69   6  A                                                              
+    SC-PAY-PERIOD-CY    69   4  A                                                              
+    SC-PAY-PERIOD-NUM   73   2  A                                                              
+    SC-CYCLE-BEGIN-DATE 75   8  A                                                              
+    SC-CYCLE-BEGIN-CY   75   4  A                                                              
+    SC-CYCLE-BEGIN-MM   79   2  A                                                              
+    SC-CYCLE-BEGIN-DD   81   2  A                                                              
+    SC-CYCLE-END-DATE   83   8  A                                                              
+    SC-CYCLE-END-CY     83   4  A                                                              
+    SC-CYCLE-END-MM     87   2  A                                                              
+    SC-CYCLE-END-DD     89   2  A                                                              
+    SC-DATE-GRANTED    127  26  A                                                              
+    SC-GRANTOR         153   8  A                                                              
+    SC-GRANTOR-SSN     161   9  A                                                              
+    SC-GRANTOR-NAME    170  19  A                                                              
+    SC-BEGIN-TIME      189  26  A                                                              
+    SC-END-TIME        215  26  A                                                              
+    SC-MONDAY          241   1  A                                                              
+    SC-TUESDAY         242   1  A                                                              
+    SC-WEDNESDAY       243   1  A                                                              
+    SC-THURSDAY        244   1  A                                                              
+    SC-FRIDAY          245   1  A                                                              
+    SC-SATURDAY        246   1  A                                                              
+    SC-SUNDAY          247   1  A                                                              
+    SC-AIX-KEY         248  17  A                                                              
+    SC-AIX-USERID      248   8  A                                                              
+    SC-AIX-ACTION      256   4  A                                                              
+    SC-AIX-DEPARTMENT  260   2  A                                                              
+    SC-AIX-FACILITY    262   3  A                                                              
+    SC-AIX-INC-GROUP   265   4  A 
+
+WS-TRUNCATE      W  6653  A
+*
+JOB INPUT TIMETRAN START( INITIALIZE )
+
+MOVE TT-TRAN-READ TO WS-TRUNCATE
+TIMETRAN:RECORD-LENGTH = TIMETRAN:RECORD-LENGTH - 8
+MOVE WS-TRUNCATE TO TT-TRAN-FIX
+
+*F ( DA-USER-ID = SC-USERID )
+    IF DA-TRAN-TYPE = 'DR'
+        PERFORM CHECK-DR
+    ELSE-IF DA-TRAN-TYPE = 'TO'
+        IF TO-SSN = SC-USER-SSN
+            PERFORM CHECK-TO
+        END-IF
+    ELSE-IF DA-TRAN-TYPE = 'RT'
+        IF RC-SSN = SC-USER-SSN
+            PERFORM RT-PRINT
+        END-IF
+    ELSE-IF DA-TRAN-TYPE = 'EX'
+        PERFORM CHECK-EX
+    END-IF
+*ND-IF
+
+INITIALIZE. PROC
+    GET INSEC
+END-PROC
+
+CHECK-DR. PROC
+
+    DAEMP-INDX = 0
+    DO WHILE DA-NO-EMP-PG > 0
+        IF DA-SSN = SC-USER-SSN
+            IF DA-TYPE(1) = X'0000'
+                MOVE SPACES TO DA-TYPE(1)
+                MOVE ZEROES TO DA-HRS(1)
+                MOVE SPACES TO DA-CODE(1)
+            END-IF
+            IF DA-TYPE(2) = X'0000'
+                MOVE SPACES TO DA-TYPE(2)
+                MOVE ZEROES TO DA-HRS(2)
+                MOVE SPACES TO DA-CODE(2)
+            END-IF
+            IF DA-TYPE(3) = X'0000'
+                MOVE SPACES TO DA-TYPE(3)
+                MOVE ZEROES TO DA-HRS(3)
+                MOVE SPACES TO DA-CODE(3)
+            END-IF
+            IF DA-TYPE(4) = X'0000'
+                MOVE SPACES TO DA-TYPE(4)
+                MOVE ZEROES TO DA-HRS(4)
+                MOVE SPACES TO DA-CODE(4)
+            END-IF
+            DA-NAME = 'TESTY MCTESTLOT'
+            DA-SSN  = '111111111'
+            PRINT REPORTA
+       *    PUT LISATIME FROM TIMETRAN
+        END-IF
+        DA-NO-EMP-PG = DA-NO-EMP-PG - 1
+        DAEMP-INDX   = DAEMP-INDX + 73
+    END-DO
+END-PROC
+
+CHECK-EX. PROC
+    DEEMP-INDX = 0
+    DO WHILE DE-NO-EMP-PG > 0
+        IF DE-SSN = SC-USER-SSN
+            IF DE-OT-LIQ-X NUMERIC
+            ELSE
+                DE-OT-LIQ = 0
+            END-IF
+            IF DE-HOL-LIQ-X NUMERIC
+            ELSE
+                DE-HOL-LIQ = 0
+            END-IF
+            PRINT REPORTEX
+        END-IF
+        DE-NO-EMP-PG = DE-NO-EMP-PG - 1
+        DEEMP-INDX   = DEEMP-INDX + 41
+    END-DO
+END-PROC
+
+CHECK-TO. PROC
+
+    TOREQ-INDX = 0
+    DO WHILE TO-NO-REQ > 0
+        PRINT REPORTB
+        TO-NO-REQ  = TO-NO-REQ - 1
+        TOREQ-INDX = TOREQ-INDX + 25
+    END-DO
+
+END-PROC
+
+RT-PRINT. PROC
+
+    INDX-RC-FROM-TO = 0
+    IF RC-NO-FROM-TO > 0
+        DO WHILE INDX-RC-FROM-TO < ( RC-NO-FROM-TO * 10 )
+            IF RC-FR-TYPE = '  '
+                RC-FR-HRS = 0
+            END-IF
+            IF RC-TO-TYPE = '  '
+                RC-TO-HRS = 0
+            END-IF
+            PRINT REPORTC
+            INDX-RC-FROM-TO = INDX-RC-FROM-TO + 10
+        END-DO
+    END-IF
+
+END-PROC
+
+REPORT REPORTA PRINTER REPORTA
+SEQUENCE DA-PROC-DATE
+*ONTROL DA-DATE
+TITLE 1 'REPORT OF DAILY ATTENDANCE TIMEKEEPING TRANSACTIONS'
+TITLE 2 '03/01/2015 THROUGH 04/03/2015'
+HEADING DA-DATE ( 'DATE' 'WORKED' )
+HEADING DA-PROC-DATE ( 'DATE' 'ENTERED' )
+LINE  1  DA-PROC-DATE DA-DATE DA-USER-ID DA-NAME DA-SSN DA-CK-OFF +
+         DA-TA-POS DA-TYPE(1) DA-HRS(1) DA-CODE(1)
+LINE  2  POS 8 DA-TYPE(2) DA-HRS(2) DA-CODE(2)
+LINE  3  POS 8 DA-TYPE(3) DA-HRS(3) DA-CODE(3)
+LINE  4  POS 8 DA-TYPE(4) DA-HRS(4) DA-CODE(4)
+
+REPORT REPORTB PRINTER REPORTB
+SEQUENCE TO-PROC-DATE
+TITLE 1 'REPORT OF TIME BALANCE ADJUSTMENT TIMEKEEPING TRANSACTIONS'
+TITLE 2 '01/22/2015 THROUGH 01/27/2015'
+HEADING TO-PROC-DATE ( 'DATE' 'ENTERED' )
+LINE  1  TO-PROC-DATE TO-USER-ID TO-NAME TO-SSN, +
+         TO-TYPE-REQ, TO-TOT-AMT-TIME, TO-TIME-CD
+
+REPORT REPORTC PRINTER REPORTC SPACE 1
+SEQUENCE RC-DATE, RC-PROC-DATE, RC-PROC-TIME
+CONTROL
+TITLE 1 'LISTING OF RETRO TRANSACTIONS ENTERED'
+HEADING RC-PROC-DATE('DATE' 'ENTERED')
+HEADING RC-PROC-TIME('TIME' 'ENTERED')
+HEADING RC-USER-ID('USER ID')
+HEADING RC-NAME('N' 'A' 'M' 'E')
+HEADING RC-DATE('DATE' 'WORKED')
+HEADING RC-FR-TYPE('FROM' 'TYPE')
+HEADING RC-FR-HRS('FROM' 'HOURS')
+HEADING RC-TO-TYPE('TO' 'TYPE')
+HEADING RC-TO-HRS('TO' 'HOURS')
+LINE  1 RC-PROC-DATE RC-PROC-TIME RC-USER-ID RC-NAME +
+        RC-DATE RC-FR-TYPE RC-FR-HRS    +
+        RC-TO-TYPE RC-TO-HRS
+
+REPORT REPORTEX PRINTER REPORTEX SPACE 1
+SEQUENCE RC-DATE, RC-PROC-DATE, RC-PROC-TIME
+CONTROL
+TITLE 1 'LISTING OF RETRO TRANSACTIONS ENTERED'
+HEADING DE-PROC-DATE('DATE' 'ENTERED')
+HEADING DE-PROC-TIME('TIME' 'ENTERED')
+HEADING DE-USER-ID('USER ID')
+HEADING DE-NAME('N' 'A' 'M' 'E')
+HEADING DE-OT-P-C( 'OT P/C' )
+HEADING DE-OT-LIQ( 'OT LIQ' )
+HEADING DE-HOL-P-C( 'HOL P/C' )
+HEADING DE-HOL-LIQ( 'HOL LIQ' )
+HEADING DE-SFT-BON( 'SHIFT' 'BONUS' )
+*INE  1 DE-PROC-DATE DE-PROC-TIME DE-USER-ID DE-NAME +
+*       DE-OT-P-C, DE-OT-LIQ, DE-HOL-P-C, DE-HOL-LIQ, DE-SFT-BON
+LINE  1 DE-PROC-DATE DE-PROC-TIME DE-USER-ID DE-NAME +
+        DE-OT-P-C, DE-OT-LIQ, DE-HOL-P-C, DE-HOL-LIQ

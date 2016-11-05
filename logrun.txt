@@ -1,0 +1,1010 @@
+1                       J E S 2  J O B  L O G  --  S Y S T E M  2 4 6 0  --  N O D E  J E S H
+0
+ 07.22.54 JOB02645 ---- MONDAY,    31 OCT 2016 ----
+ 07.22.54 JOB02645  IRR010I  USERID DHS9172  IS ASSIGNED TO THIS JOB.
+ 07.22.54 JOB02645  ICH70001I DHS9172  LAST ACCESS AT 07:21:55 ON MONDAY, OCTOBER 31, 2016
+ 07.22.54 JOB02645  $HASP373 DHS9172T STARTED - INIT 38   - CLASS T        - SYS 2460
+ 07.22.54 JOB02645  IEF403I DHS9172T - STARTED
+ 07.22.54 JOB02645 *IEF233A M A025,K61254,,DHS9172T,EASYPLUS
+ 07.22.54 JOB02645 *TMS009  IEF233A M A025,K61254,,DHS9172T,EASYPLUS,DHS.AM027BP1.TK21.D201513                    
+ 07.22.54 JOB02645 *IEF233A M A0AA,P55870,,DHS9172T,EASYPLUS
+ 07.22.54 JOB02645 *TMS009  IEF233A M A0AA,P55870,,DHS9172T,EASYPLUS
+ 07.22.54 JOB02645 *IEF233A M C020,M02466,,DHS9172T,EASYPLUS
+ 07.22.54 JOB02645 *TMS009  IEF233A M C020,M02466,,DHS9172T,EASYPLUS
+ 07.22.54 JOB02645 *IEF233A M A0B5,K67703,,DHS9172T,EASYPLUS
+ 07.22.54 JOB02645 *TMS009  IEF233A M A0B5,K67703,,DHS9172T,EASYPLUS
+ 07.22.54 JOB02645 *IEF233A M A016,P13345,,DHS9172T,EASYPLUS
+ 07.22.54 JOB02645 *TMS009  IEF233A M A016,P13345,,DHS9172T,EASYPLUS
+ 07.22.54 JOB02645 *IEF233A M C0A4,Q02516,,DHS9172T,EASYPLUS
+ 07.22.54 JOB02645 *TMS009  IEF233A M C0A4,Q02516,,DHS9172T,EASYPLUS
+ 07.22.54 JOB02645 *IEF233A M C042,P60273,,DHS9172T,EASYPLUS
+ 07.22.54 JOB02645 *TMS009  IEF233A M C042,P60273,,DHS9172T,EASYPLUS
+ 07.22.54 JOB02645 *IEF233A M C031,M08628,,DHS9172T,EASYPLUS
+ 07.22.54 JOB02645 *TMS009  IEF233A M C031,M08628,,DHS9172T,EASYPLUS
+ 07.22.54 JOB02645 *IEF233A M C0A7,K78938,,DHS9172T,EASYPLUS
+ 07.22.54 JOB02645 *TMS009  IEF233A M C0A7,K78938,,DHS9172T,EASYPLUS
+ 07.22.54 JOB02645 *IEF233A M A04E,J66381,,DHS9172T,EASYPLUS
+ 07.22.54 JOB02645 *TMS009  IEF233A M A04E,J66381,,DHS9172T,EASYPLUS
+ 07.22.54 JOB02645 *IEF233A M C0D9,J83749,,DHS9172T,EASYPLUS
+ 07.22.54 JOB02645 *TMS009  IEF233A M C0D9,J83749,,DHS9172T,EASYPLUS
+ 07.22.54 JOB02645 *IEF233A M A061,J77232,,DHS9172T,EASYPLUS
+ 07.22.54 JOB02645 *TMS009  IEF233A M A061,J77232,,DHS9172T,EASYPLUS
+ 07.22.54 JOB02645 *IEF233A M C03E,M52870,,DHS9172T,EASYPLUS
+ 07.22.54 JOB02645 *TMS009  IEF233A M C03E,M52870,,DHS9172T,EASYPLUS
+ 07.22.54 JOB02645 *IEF233A M A057,M82934,,DHS9172T,EASYPLUS
+ 07.22.54 JOB02645 *TMS009  IEF233A M A057,M82934,,DHS9172T,EASYPLUS
+ 07.23.00 JOB02645  IEF234E K A025,K61254,PVT,DHS9172T,EASYPLUS
+ 07.23.00 JOB02645  IEF234E K A0AA,P55870,PVT,DHS9172T,EASYPLUS
+ 07.23.00 JOB02645  IEF234E K C020,M02466,PVT,DHS9172T,EASYPLUS
+ 07.23.00 JOB02645  IEF234E K A0B5,K67703,PVT,DHS9172T,EASYPLUS
+ 07.23.00 JOB02645  IEF234E K A016,P13345,PVT,DHS9172T,EASYPLUS
+ 07.23.00 JOB02645  IEF234E K C0A4,Q02516,PVT,DHS9172T,EASYPLUS
+ 07.23.00 JOB02645  IEF234E K C042,P60273,PVT,DHS9172T,EASYPLUS
+ 07.23.00 JOB02645  IEF234E K C031,M08628,PVT,DHS9172T,EASYPLUS
+ 07.23.00 JOB02645  IEF234E K C0A7,K78938,PVT,DHS9172T,EASYPLUS
+ 07.23.00 JOB02645  IEF234E K A04E,J66381,PVT,DHS9172T,EASYPLUS
+ 07.23.00 JOB02645  IEF234E K C0D9,J83749,PVT,DHS9172T,EASYPLUS
+ 07.23.00 JOB02645  IEF234E K A061,J77232,PVT,DHS9172T,EASYPLUS
+ 07.23.00 JOB02645  IEF234E K C03E,M52870,PVT,DHS9172T,EASYPLUS
+ 07.23.00 JOB02645  IEF234E K A057,M82934,PVT,DHS9172T,EASYPLUS
+ 07.23.00 JOB02645  -                                      -----TIMINGS (MINS.)------                          -----PAGING COUNTS----
+ 07.23.00 JOB02645  -STEPNAME PROCSTEP    RC   EXCP   CONN       TCB       SRB  CLOCK          SERV  WORKLOAD  PAGE  SWAP   VIO SWAPS
+ 07.23.00 JOB02645  -STEP10   EASYPLUS    00  15624   4350       .01       .00     .1         60913  BATCHP       0     0     0     0
+ 07.23.00 JOB02645  -STEP10   LKED     FLUSH      0      0       .00       .00     .0                BATCHP       0     0     0     0
+ 07.23.00 JOB02645  IEF404I DHS9172T - ENDED
+ 07.23.00 JOB02645  -DHS9172T ENDED.  NAME-WRIGHT               TOTAL TCB CPU TIME=      .01 TOTAL ELAPSED TIME=    .1 SUBSYS=JES2
+ 07.23.00 JOB02645  $HASP395 DHS9172T ENDED - RC=0000
+0------ JES2 JOB STATISTICS ------
+-  31 OCT 2016 JOB EXECUTION DATE
+-          226 CARDS READ
+-        1,990 SYSOUT PRINT RECORDS
+-            0 SYSOUT PUNCH RECORDS
+-          203 SYSOUT SPOOL KBYTES
+-         0.10 MINUTES EXECUTION TIME
+         1 //DHS9172T JOB  3206100TM002,WRIGHT,REGION=6M,TIME=2,NOTIFY=DHS9172,    JOB02645
+           //         CLASS=T,
+           //   MSGCLASS=A           INSERTED BY SUBMIT EXIT
+         2 /*JOBPARM  L=999
+         3 //LIB JCLLIB ORDER=DHS.PROCLIB
+         4 /*ROUTE PRINT N2R66
+           //**********************************************************************
+         5 //STEP10   EXEC MHEZYPLS
+         6 XXMHEZYPLS PROC UNITI=TAPE,DISPI=SHR,SERI=,DSNI=NULLFILE,DCBI=,LABELI=, 00010000
+           XX UNITO=TAPE,DISPO=,FDISPO=PASS,ADISPO=DELETE,SERO=,DSNO=NULLFILE,     00020000
+           XX DCBO=,BLKLNO=19069,PRIMO=30,SECO=2,RLSEO=RLSE,LABELO=,               00030000
+           XX MSSO='VOL=SER',SPACEO=',',USER=MHEALTH,LIB=TESTLIB,LINK=0            00040000
+           XX*                                                                     00050000
+         7 XXEASYPLUS EXEC PGM=EZTPA00                                             00060000
+         8 XXSTEPLIB  DD DSN=IDC.EASYPLUS.LOADLIB,DISP=SHR                         00071001
+         9 XX         DD DSN=IDCSHR.PANSQL.LOAD,DISP=SHR                           00071103
+        10 XX         DD DSN=DB2.SDSNLOAD,DISP=SHR                                 00071200
+        11 XXAUDITS   DD SYSOUT=*                                                  00072000
+        12 XXSYSOUT   DD SYSOUT=*                                                  00073000
+        13 XXSYSPRINT DD SYSOUT=*                                                  00080000
+        14 XXSYSUDUMP DD SYSOUT=*                                                  00090000
+        15 XXSYSSNAP  DD SYSOUT=*                                                  00100000
+        16 XXEZTVFM   DD UNIT=DISK,SPACE=(4096,(500,500),,,ROUND)                  00110000
+        17 XXSYSLIN   DD UNIT=DISK,SPACE=(800,(1,50)),DISP=(,PASS)                 00120000
+        18 XXINPUT1   DD UNIT=(&UNITI),DISP=(&DISPI),VOL=SER=(&SERI),DSN=&DSNI,    00130000
+           XX DCB=(&DCBI),LABEL=(&LABELI)                                          00140000
+           IEFC653I SUBSTITUTION JCL - UNIT=(TAPE),DISP=(SHR),VOL=SER=(),DSN=NULLFILE,DCB=(),LABEL=()
+        19 XXOUTPUT1  DD UNIT=(&UNITO),DISP=(&DISPO,&FDISPO,&ADISPO),DSN=&DSNO,    00150000
+           XX DCB=(&DCBO),LABEL=(&LABELO),                                         00160000
+           XX &MSSO=(&SERO)&SPACEO.SPACE=(&BLKLNO,(&PRIMO,&SECO),&RLSEO)           00160100
+           IEFC653I SUBSTITUTION JCL - UNIT=(TAPE),DISP=(,PASS,DELETE),DSN=NULLFILE,DCB=(),LABEL=(),VOL=SER=(),
+           SPACE=(19069,(30,2),RLSE)
+        20 XXSORTLIB  DD DSN=SYS1.SORTLIB,DISP=SHR                                 00161000
+        21 XXSORTWK01 DD UNIT=DISK,SPACE=(CYL,(1))                                 00170000
+        22 XXSORTWK02 DD UNIT=DISK,SPACE=(CYL,(1))                                 00180000
+        23 XXSORTWK03 DD UNIT=DISK,SPACE=(CYL,(1))                                 00190000
+        24 XXPANDD1   DD DSN=MHEALTH.PANLIB,DISP=SHR                               00200000
+        25 //REPORTA  DD  SYSOUT=(Y,,SLNH)
+        26 //REPORTB  DD  SYSOUT=(Y,,SLNH)
+        27 //REPORTC  DD  SYSOUT=(Y,,SLNH)
+        28 //REPORTEX DD  SYSOUT=(Y,,SLNH)
+        29 //TIMETRAN DD  DSN=DHS.AM027BP1.TK21.D201513,UNIT=VTAPE,BUFNO=20,
+           //         DISP=OLD
+        30 //         DD  DSN=DHS.AM027BP1.TK31.D201514,UNIT=VTAPE,BUFNO=20,
+           //         DISP=OLD
+        31 //         DD  DSN=DHS.AM027BP1.TK21.D201515,UNIT=VTAPE,BUFNO=20,
+           //         DISP=OLD
+        32 //         DD  DSN=DHS.AM027BP1.TK31.D201516,UNIT=VTAPE,BUFNO=20,
+           //         DISP=OLD
+        33 //         DD  DSN=DHS.AM027BP1.TK21.D201517,UNIT=VTAPE,BUFNO=20,
+           //         DISP=OLD
+        34 //         DD  DSN=DHS.AM027BP1.TK31.D201518,UNIT=VTAPE,BUFNO=20,
+           //         DISP=OLD
+        35 //         DD  DSN=DHS.AM027BP1.TK21.D201519,UNIT=VTAPE,BUFNO=20,
+           //         DISP=OLD
+        36 //         DD  DSN=DHS.AM027BP1.TK31.D201520,UNIT=VTAPE,BUFNO=20,
+           //         DISP=OLD
+        37 //         DD  DSN=DHS.AM027BP1.TK21.D201521,UNIT=VTAPE,BUFNO=20,
+           //         DISP=OLD
+        38 //         DD  DSN=DHS.AM027BP1.TK31.D201522,UNIT=VTAPE,BUFNO=20,
+           //         DISP=OLD
+        39 //         DD  DSN=DHS.AM027BP1.TK21.D201523,UNIT=VTAPE,BUFNO=20,
+           //         DISP=OLD
+        40 //         DD  DSN=DHS.AM027BP1.TK31.D201524,UNIT=VTAPE,BUFNO=20,
+           //         DISP=OLD
+        41 //         DD  DSN=DHS.AM027BP1.TK21.D201601,UNIT=VTAPE,BUFNO=20,
+           //         DISP=OLD
+        42 //         DD  DSN=DHS.AM027BP1.TK31.D201602,UNIT=VTAPE,BUFNO=20,
+           //         DISP=OLD
+        43 //INSEC    DD  DSN=DHS9172.OUTSEC2,DISP=SHR,BUFNO=20
+        44 //SYSIN  DD *
+        45 XXLKED     EXEC PGM=IEWL,COND=(&LINK,LE,EASYPLUS)                       00201000
+           XX*TO EXEC THIS STEP, CODE "LINK=5" WHEN USING PROC                     00202000
+           XX*EXAMPLE  //STEP1 EXEC MHEZYPLS,LINK=5                                00203000
+           IEFC653I SUBSTITUTION JCL - PGM=IEWL,COND=(0,LE,EASYPLUS)
+        46 XXSYSPRINT DD SYSOUT=*                                                  00204000
+        47 XXSYSUT1   DD UNIT=DISK,SPACE=(6144,(50,50),,,ROUND)                    00205000
+        48 XXSYSLIN   DD DSN=*.EASYPLUS.SYSLIN,DISP=(OLD,DELETE)                   00210000
+        49 XXSYSLMOD  DD DSN=&USER..&LIB,DISP=SHR                                  00220000
+           IEFC653I SUBSTITUTION JCL - DSN=MHEALTH.TESTLIB,DISP=SHR
+  STMT NO. MESSAGE
+         5 IEFC001I PROCEDURE MHEZYPLS WAS EXPANDED USING PRIVATE LIBRARY DHS.PROCLIB
+ ICH70001I DHS9172  LAST ACCESS AT 07:21:55 ON MONDAY, OCTOBER 31, 2016
+ IEF236I ALLOC. FOR DHS9172T EASYPLUS STEP10
+ IEF237I E439 ALLOCATED TO STEPLIB
+ IEF237I DB54 ALLOCATED TO
+ IEF237I E431 ALLOCATED TO
+ IEF237I JES2 ALLOCATED TO AUDITS
+ IEF237I JES2 ALLOCATED TO SYSOUT
+ IEF237I JES2 ALLOCATED TO SYSPRINT
+ IEF237I JES2 ALLOCATED TO SYSUDUMP
+ IEF237I JES2 ALLOCATED TO SYSSNAP
+ IGD101I SMS ALLOCATED TO DDNAME (EZTVFM  )
+         DSN (SYS16305.T072254.RA000.DHS9172T.R0387697    )
+         STORCLAS (TEMPRARY) MGMTCLAS (        ) DATACLAS (DEFAULT)
+         VOL SER NOS= WKH102
+ IGD101I SMS ALLOCATED TO DDNAME (SYSLIN  )
+         DSN (SYS16305.T072254.RA000.DHS9172T.R0387698    )
+         STORCLAS (TEMPRARY) MGMTCLAS (        ) DATACLAS (DEFAULT)
+         VOL SER NOS= WKH107
+ IEF237I DMY  ALLOCATED TO INPUT1
+ IEF237I DMY  ALLOCATED TO OUTPUT1
+ IEF237I E300 ALLOCATED TO SORTLIB
+ IGD101I SMS ALLOCATED TO DDNAME (SORTWK01)
+         DSN (SYS16305.T072254.RA000.DHS9172T.R0387699    )
+         STORCLAS (SCNOVIO) MGMTCLAS (        ) DATACLAS (DEFAULT)
+         VOL SER NOS= WKH105
+ IGD101I SMS ALLOCATED TO DDNAME (SORTWK02)
+         DSN (SYS16305.T072254.RA000.DHS9172T.R0387700    )
+         STORCLAS (SCNOVIO) MGMTCLAS (        ) DATACLAS (DEFAULT)
+         VOL SER NOS= WKH101
+ IGD101I SMS ALLOCATED TO DDNAME (SORTWK03)
+         DSN (SYS16305.T072254.RA000.DHS9172T.R0387701    )
+         STORCLAS (SCNOVIO) MGMTCLAS (        ) DATACLAS (DEFAULT)
+         VOL SER NOS= WKH104
+ IEF237I E00F ALLOCATED TO PANDD1
+ IEF237I JES2 ALLOCATED TO REPORTA
+ IEF237I JES2 ALLOCATED TO REPORTB
+ IEF237I JES2 ALLOCATED TO REPORTC
+ IEF237I JES2 ALLOCATED TO REPORTEX
+ IGD100I A025 ALLOCATED TO DDNAME TIMETRAN
+ IGD100I A0AA ALLOCATED TO DDNAME
+ IGD100I C020 ALLOCATED TO DDNAME
+ IGD100I A0B5 ALLOCATED TO DDNAME
+ IGD100I A016 ALLOCATED TO DDNAME
+ IGD100I C0A4 ALLOCATED TO DDNAME
+ IGD100I C042 ALLOCATED TO DDNAME
+ IGD100I C031 ALLOCATED TO DDNAME
+ IGD100I C0A7 ALLOCATED TO DDNAME
+ IGD100I A04E ALLOCATED TO DDNAME
+ IGD100I C0D9 ALLOCATED TO DDNAME
+ IGD100I A061 ALLOCATED TO DDNAME
+ IGD100I C03E ALLOCATED TO DDNAME
+ IGD100I A057 ALLOCATED TO DDNAME
+ IGD103I SMS ALLOCATED TO DDNAME INSEC
+ IEF237I JES2 ALLOCATED TO SYSIN
+ IGD103I SMS ALLOCATED TO DDNAME EZOPTBL
+ IEF142I DHS9172T EASYPLUS STEP10 - STEP WAS EXECUTED - COND CODE 0000
+ IEF285I   IDC.EASYPLUS.LOADLIB                         KEPT
+ IEF285I   VOL SER NOS= SYH053.
+ IEF285I   IDCSHR.PANSQL.LOAD                           KEPT
+ IEF285I   VOL SER NOS= SHR051.
+ IEF285I   DB2.SDSNLOAD                                 KEPT
+ IEF285I   VOL SER NOS= DB2H01.
+ IEF285I   DHS9172.DHS9172T.JOB02645.D0000102.?         SYSOUT
+ IEF285I   DHS9172.DHS9172T.JOB02645.D0000103.?         SYSOUT
+ IEF285I   DHS9172.DHS9172T.JOB02645.D0000104.?         SYSOUT
+ IEF285I   DHS9172.DHS9172T.JOB02645.D0000105.?         SYSOUT
+ IEF285I   DHS9172.DHS9172T.JOB02645.D0000106.?         SYSOUT
+ IGD105I SYS16305.T072254.RA000.DHS9172T.R0387697     DELETED,   DDNAME=EZTVFM
+ IGD106I SYS16305.T072254.RA000.DHS9172T.R0387698     PASSED,    DDNAME=SYSLIN
+ IEF285I   SYS1.SORTLIB                                 KEPT
+ IEF285I   VOL SER NOS= IPL004.
+ IGD105I SYS16305.T072254.RA000.DHS9172T.R0387699     DELETED,   DDNAME=SORTWK01
+ IGD105I SYS16305.T072254.RA000.DHS9172T.R0387700     DELETED,   DDNAME=SORTWK02
+ IGD105I SYS16305.T072254.RA000.DHS9172T.R0387701     DELETED,   DDNAME=SORTWK03
+ IEF285I   MHEALTH.PANLIB                               KEPT
+ IEF285I   VOL SER NOS= DHS203.
+ IEF285I   DHS9172.DHS9172T.JOB02645.D0000107.?         SYSOUT
+ IEF285I   DHS9172.DHS9172T.JOB02645.D0000108.?         SYSOUT
+ IEF285I   DHS9172.DHS9172T.JOB02645.D0000109.?         SYSOUT
+ IEF285I   DHS9172.DHS9172T.JOB02645.D0000110.?         SYSOUT
+ IEF285I   DHS.AM027BP1.TK21.D201513                    KEPT
+ IEF285I   VOL SER NOS= K61254.
+ IEF285I   DHS.AM027BP1.TK31.D201514                    KEPT
+ IEF285I   VOL SER NOS= P55870.
+ IEF285I   DHS.AM027BP1.TK21.D201515                    KEPT
+ IEF285I   VOL SER NOS= M02466.
+ IEF285I   DHS.AM027BP1.TK31.D201516                    KEPT
+ IEF285I   VOL SER NOS= K67703.
+ IEF285I   DHS.AM027BP1.TK21.D201517                    KEPT
+ IEF285I   VOL SER NOS= P13345.
+ IEF285I   DHS.AM027BP1.TK31.D201518                    KEPT
+ IEF285I   VOL SER NOS= Q02516.
+ IEF285I   DHS.AM027BP1.TK21.D201519                    KEPT
+ IEF285I   VOL SER NOS= P60273.
+ IEF285I   DHS.AM027BP1.TK31.D201520                    KEPT
+ IEF285I   VOL SER NOS= M08628.
+ IEF285I   DHS.AM027BP1.TK21.D201521                    KEPT
+ IEF285I   VOL SER NOS= K78938.
+ IEF285I   DHS.AM027BP1.TK31.D201522                    KEPT
+ IEF285I   VOL SER NOS= J66381.
+ IEF285I   DHS.AM027BP1.TK21.D201523                    KEPT
+ IEF285I   VOL SER NOS= J83749.
+ IEF285I   DHS.AM027BP1.TK31.D201524                    KEPT
+ IEF285I   VOL SER NOS= J77232.
+ IEF285I   DHS.AM027BP1.TK21.D201601                    KEPT
+ IEF285I   VOL SER NOS= M52870.
+ IEF285I   DHS.AM027BP1.TK31.D201602                    KEPT
+ IEF285I   VOL SER NOS= M82934.
+ IGD104I DHS9172.OUTSEC2                              RETAINED,  DDNAME=INSEC
+ IEF285I   DHS9172.DHS9172T.JOB02645.D0000101.?         SYSIN
+ IGD104I IDC.EASYPLUS.EZOPTBL                         RETAINED,  DDNAME=EZOPTBL
+ ************************************************************************************************************************************
+ *                                                                                                                                  *
+ *                                                                                         *
+ *                                                                                                                                  *
+ *                                                                STORAGE                                                           *
+ *  STEP NAME      EASYPLUS     START     07.22.54.43       TYPE       VIRTUAL            TCB     00.00.00.67     TAPE MOUNTS   14  *
+ *  PROGRAM NAME   EZTPA00      END       07.23.00.74       PROGRAM    3520K              SRB     00.00.00.03     DISK MOUNTS    0  *
+ *  DISPATCH PRTY         0     ELAPSED   00.00.06.31       SYSTEM      368K          TRAN/ACTV   00.00.05.58                       *
+ *                                                                                                                                  *
+ *  PERF. GROUP           0                        PAGE IN/OUT           0/       0                                                 *
+ *  SERV. UNS/M           0                        VIO PAGE IN/OUT       0/       0                          CONDITION CODE   0000  *
+ *                                                                                                                                  *
+ *                                                                                                                                  *
+ *                                                           INPUT/OUTPUT                                                           *
+ *                                                                                                                                  *
+ *  DDNAME    UNIT      EXCPS         DDNAME    UNIT      EXCPS         DDNAME    UNIT      EXCPS         DDNAME    UNIT      EXCPS *
+ *                                                                                                                                  *
+ *  STEPLIB   E439        717         STEPLIB   DB54          0         STEPLIB   E431         36         EZTVFM    EF20          0 *
+ *  SYSLIN    EF60          8         SORTLIB   E300          0         SORTWK01  EF5E          1         SORTWK02  EF1F          1 *
+ *  SORTWK03  EF22          1         PANDD1    E00F         25         TIMETRAN  A025       1010         TIMETRAN  A0AA       1017 *
+ *  TIMETRAN  C020        966         TIMETRAN  A0B5        834         TIMETRAN  A016        984         TIMETRAN  C0A4       1040 *
+ *  TIMETRAN  C042        976         TIMETRAN  C031        951         TIMETRAN  C0A7       1014         TIMETRAN  A04E        989 *
+ *  TIMETRAN  C0D9        987         TIMETRAN  A061        971         TIMETRAN  C03E       1037         TIMETRAN  A057       1002 *
+ *  INSEC     E565          2         EZOPTBL   E641         15                                                                     *
+ *                                                                                                                                  *
+ *  EXCP TOTALS:           DASD-       806             TAPE-       13778                                                            *
+ *                                                                                                                                  *
+ ************************************************************************************************************************************
+ IEF373I STEP/EASYPLUS/START 2016305.0722
+ IEF032I STEP/EASYPLUS/STOP  2016305.0723
+         CPU:     0 HR  00 MIN  00.67 SEC    SRB:     0 HR  00 MIN  00.03 SEC
+         VIRT:  3520K  SYS:   368K  EXT:    32768K  SYS:    13208K
+         ATB- REAL:                   324K  SLOTS:                     0K
+              VIRT- ALLOC:      20M SHRD:       0M
+ IEF202I DHS9172T LKED STEP10 - STEP WAS NOT RUN BECAUSE OF CONDITION CODES
+ IEF272I DHS9172T LKED STEP10 - STEP WAS NOT EXECUTED.
+ ************************************************************************************************************************************
+ *                                                                                                                                  *
+ *                                                                                          *
+ *                                                                                                                                  *
+ *                                                                STORAGE                                                           *
+ *  STEP NAME      LKED         START     07.23.00.74       TYPE       VIRTUAL            TCB     00.00.00.00     TAPE MOUNTS    0  *
+ *  PROGRAM NAME   IEWL         END       07.23.00.74       PROGRAM       0K              SRB     00.00.00.00     DISK MOUNTS    0  *
+ *  DISPATCH PRTY         0     ELAPSED   00.00.00.00       SYSTEM        0K          TRAN/ACTV   00.00.00.00                       *
+ *                                                                                                                                  *
+ *  PERF. GROUP           0                        PAGE IN/OUT           0/       0                                                 *
+ *  SERV. UNS/M           0                        VIO PAGE IN/OUT       0/       0                          CONDITION CODE   0000  *
+ *                                                                                                                                  *
+ *                                                                                                                                  *
+ *                                                           INPUT/OUTPUT                                                           *
+ *                                                                                                                                  *
+ *                                                                                                                                  *
+ *  EXCP TOTALS:           DASD-         0             TAPE-         0                                                              *
+ *                                                                                                                                  *
+ ************************************************************************************************************************************
+ IEF373I STEP/LKED    /START 2016305.0723
+ IEF032I STEP/LKED    /STOP  2016305.0723
+         CPU:     0 HR  00 MIN  00.00 SEC    SRB:     0 HR  00 MIN  00.00 SEC
+         VIRT:     0K  SYS:     0K  EXT:        0K  SYS:        0K
+         ATB- REAL:                     0K  SLOTS:                     0K
+              VIRT- ALLOC:      19M SHRD:       0M
+ IGD103I SMS ALLOCATED TO DDNAME SYS00001
+ IGD104I SYS16305.T072300.RA000.DHS9172T.R0387703     RETAINED,  DDNAME=SYS00001
+ IGD105I SYS16305.T072254.RA000.DHS9172T.R0387698     DELETED,   DDNAME=SYSLIN
+
+ *************************                             KOMAND  ONLINE  COSTING             LEVEL=V700      *************************
+
+                                QUANTITY     RESOURCE                             UNIT           ESTIMATED
+                                MEASURED     DESCRIPTION                          RATE ($)       COST ($)
+
+                                     226     JCL / DATA READ INTERNAL            .15/1000               .03
+                                   1,990     SYSOUT PRINT RECORDS-LOCAL          .15/1000               .31
+                                 .00019      PROCESSOR HOURS                3,282.00/HOUR               .62
+                                             REQUESTED SHIFT MET
+                                             REVENUE FROM COSTING FACTOR         .25                  - .72
+                                             MULTIPLICATION FACTOR              1.00   *                .96 JOB COST =           .24
+                                             TABLE USED: FTAB#0D1  VERSION: V700
+
+
+ ************************************************************************************************************************************
+ *                                                                                                                                  *
+ *                                                                 LEVEL=V700               *
+ *                                                                                                                                  *
+ *  JOBNAME     DHS9172T           START     07.22.54.43 - 2016.305 -  10/31/2016         TCB     00.00.00.67     TAPE MOUNTS   14  *
+ *  RDR TIME    07.22.54.37        END       07.23.00.75 - 2016.305 -  10/31/2016         SRB     00.00.00.03     DISK MOUNTS    0  *
+ *  RDR DATE    2016.305           ELAPSED   00.00.06.32                              TRAN/ACTV   00.00.05.58                       *
+ *                                                                                                                                  *
+ *  PERF GROUP            0                        PAGE IN/OUT           0/       0       SERVICE CLASS NAME  BATCH                 *
+ *  SERV. UNS/M           0                        VIO PAGE IN/OUT       0/       0                     COMPLETION STATUS - NORMAL  *
+ *                                                                                                                                  *
+ *  JOB CLASS   T                                  PROGRAMMER    WRIGHT                                          SYSTEM ID    2460  *
+ *                                                                                                                                  *
+ *  JOB NUMBER  JOB02645                           ACCT. DATA   3206100TM002                                     SP7.2.2      JES2  *
+ *                                                                                                                                  *
+ *                                                                                                                                  *
+ *  EXCP TOTALS:           DASD-       806             TAPE-       13778                                                            *
+ *                                                                                                                                  *
+ ************************************************************************************************************************************
+ IEF375I  JOB/DHS9172T/START 2016305.0722
+ IEF033I  JOB/DHS9172T/STOP  2016305.0723
+         CPU:     0 HR  00 MIN  00.67 SEC    SRB:     0 HR  00 MIN  00.03 SEC
+1ICE201I 1 RECORD TYPE IS F - DATA STARTS IN POSITION 1
+ ICE751I 0 C5-I37057 C6-I35397 C7-I35397 C8-I35397 E4-I35397 C9-I35397 E5-I35397 E7-I37057
+ ICE143I 0 BLOCKSET     SORT  TECHNIQUE SELECTED
+ ICE250I 0 VISIT http://www.ibm.com/storage/dfsort FOR DFSORT PAPERS, EXAMPLES AND MORE
+ ICE000I 0 - CONTROL STATEMENTS FOR 5650-ZOS, Z/OS DFSORT V2R2  - 07:23 ON MON OCT 31, 2016 -
+0           SORT FIELDS=(1,8,CH,A),DYNALLOC=(SYSDA,03),FILSZ=E221
+            RECORD TYPE=F,LENGTH=00084
+ ICE193I 0 ICEAM2 INVOCATION ENVIRONMENT IN EFFECT - ICEAM2 ENVIRONMENT SELECTED
+ ICE089I 1 DHS9172T.STEP10  .EASYPLUS, INPUT LRECL = 84, TYPE = F
+ ICE093I 0 MAIN STORAGE = (MAX,33554432,33554432)
+ ICE156I 0 MAIN STORAGE ABOVE 16MB = (33357808,33357808)
+ ICE127I 0 OPTIONS: OVFLO=RC0 ,PAD=RC0 ,TRUNC=RC0 ,SPANINC=RC16,VLSCMP=N,SZERO=Y,RESET=Y,VSAMEMT=Y,DYNSPC=2400
+ ICE128I 0 OPTIONS: SIZE=33554432,MAXLIM=2097152,MINLIM=450560,EQUALS=Y,LIST=Y,ERET=ABEND,MSGDDN=SYSOUT
+ ICE129I 0 OPTIONS: VIO=Y,RESDNT=ALL ,SMF=NO   ,WRKSEC=Y,OUTSEC=Y,VERIFY=N,CHALT=N,DYNALOC=N             ,ABCODE=MSG
+ ICE130I 0 OPTIONS: RESALL=4096,RESINV=131072,SVC=109 ,CHECK=N,WRKREL=Y,OUTREL=Y,CKPT=N,COBEXIT=COB2
+ ICE131I 0 OPTIONS: TMAXLIM=33554432,ARESALL=0,ARESINV=0,OVERRGN=16384,CINV=Y,CFW=Y,DSA=0
+ ICE132I 0 OPTIONS: VLSHRT=N,ZDPRINT=Y,IEXIT=N,TEXIT=N,LISTX=N,EFS=NONE    ,EXITCK=S,PARMDDN=DFSPARM ,FSZEST=N
+ ICE133I 0 OPTIONS: HIPRMAX=OPTIMAL,DSPSIZE=MAX ,ODMAXBF=0,SOLRF=Y,VLLONG=N,VSAMIO=N,MOSIZE=MAX
+ ICE235I 0 OPTIONS: NULLOUT=RC0
+ ICE236I 0 OPTIONS: DYNAPCT=10 ,MOWRK=Y,TUNE=STOR,EXPMAX=MAX    ,EXPOLD=50%    ,EXPRES=10%
+ ICE750I 0 DC 0 TC 0 CS DSVVV KSZ 12 VSZ 12
+ ICE752I 0 FSZ=221 RE  IGN=0 C  AVG=88 0  WSP=25 E  DYN=0 0
+ ICE751I 1 DE-I37957 D5-I35397 D9-I35397 E8-I37057
+ ICE091I 0 OUTPUT LRECL = 84, TYPE = F
+ ICE080I 0 IN MAIN STORAGE SORT
+ ICE055I 0 INSERT 221, DELETE 221
+ ICE054I 0 RECORDS - IN: 0, OUT: 0
+ ICE134I 0 NUMBER OF BYTES SORTED: 18564
+ ICE253I 0 RECORDS SORTED - PROCESSED: 221, EXPECTED: 221
+ ICE165I 0 TOTAL WORK DATA SET TRACKS ALLOCATED: 45 , TRACKS USED: 0
+ ICE199I 0 MEMORY OBJECT USED AS MAIN STORAGE = 0M BYTES
+ ICE299I 0 MEMORY OBJECT USED AS WORK STORAGE = 0M BYTES
+ ICE180I 0 HIPERSPACE STORAGE USED = 0K BYTES
+ ICE188I 0 DATA SPACE STORAGE USED = 0K BYTES
+ ICE052I 0 END OF DFSORT
+110/31/16 07.22.54                            CA Easytrieve 11.6    SP0                                    PAGE          1
+                                     
+0Programs and all supporting materials copyright (c) 2010 CA. All Rights Reserved
+-            1  PARM DEBUG(CLIST XREF SHORT)                                             1/20/92
+             2  *
+             3  FILE REPORTA  PRINTER
+             4  FILE REPORTB  PRINTER
+             5  FILE REPORTC  PRINTER
+             6  FILE REPORTEX PRINTER
+             7  *
+             8  FILE TIMETRAN VB (6661 32760)
+             9  TT-TRAN-FIX         1 6654 A
+            10  %EZDAATTENY
+            11  MACRO                                                                                          -EZDAATTE
+            12  *                                                                                              -EZDAATTE
+            13  DAILY-ATTENDANCE                   1   1218  A                                                 -EZDAATTE
+            14      DA-PROC-DATE                       1      8  A                                             -EZDAATTE
+            15          DA-CENTURY                         1      2  N                                         -EZDAATTE
+            16          DA-YEAR                            3      2  N                                         -EZDAATTE
+            17          DA-MONTH                           5      2  N                                         -EZDAATTE
+            18          DA-DAY                             7      2  N                                         -EZDAATTE
+            19      DA-PROC-TIME                       9      4  P                                             -EZDAATTE
+            20      DA-TERM-ID                        13      4  A                                             -EZDAATTE
+            21      DA-FILLER-1                       17      4  A                                             -EZDAATTE
+            22      DA-USER-ID                        21      8  A                                             -EZDAATTE
+            23      DA-DEPARTMENT                     29      2  A                                             -EZDAATTE
+            24      DA-FAC                            31      3  A                                             -EZDAATTE
+            25         DA-FAC-BYTE-1                     31      1  A                                          -EZDAATTE
+            26         DA-FAC-BYTES-2-3                  32      2  A                                          -EZDAATTE
+            27      DA-TMKS                           34      4  A                                             -EZDAATTE
+            28      DA-TRAN-TYPE                      38      2  A                                             -EZDAATTE
+            29      DA-SYNC-POINT                     40      1  A                                             -EZDAATTE
+            30      DA-DATE                           41      8  A                                             -EZDAATTE
+            31          DA-DATE-CY                        41      2  N                                         -EZDAATTE
+            32          DA-DATE-YR                        43      2  N                                         -EZDAATTE
+            33          DA-DATE-MO                        45      2  N                                         -EZDAATTE
+            34          DA-DATE-DAY                       47      2  N                                         -EZDAATTE
+            35      DA-NO-EMP-PG                      49      2  N  0                                          -EZDAATTE
+            36      DA-EMP-RECD                       51     73  A INDEX DAEMP-INDX                            -EZDAATTE
+            37          DA-NAME           DA-EMP-RECD            19  A                                         -EZDAATTE
+            38          DA-SSN            DA-EMP-RECD    +19      9  A                                         -EZDAATTE
+            39          DA-CK-OFF         DA-EMP-RECD    +28      1  A                                         -EZDAATTE
+            40          DA-DAILY-TIME     DA-EMP-RECD    +29      6  A +                                       -EZDAATTE
+            41              OCCURS 4 INDEX DATIME-INDX                                                         -EZDAATTE
+            42              DA-TYPE           DA-DAILY-TIME           2  A                                     -EZDAATTE
+            43              DA-HRS            DA-DAILY-TIME    +2     3  P  2                                  -EZDAATTE
+            44              DA-CODE           DA-DAILY-TIME    +5     1  A                                     -EZDAATTE
+            45          DA-TRDY-LT-ERLY   DA-EMP-RECD    +53      2  P  2                                      -EZDAATTE
+            46          DA-DOCK           DA-EMP-RECD    +55      1  A                                         -EZDAATTE
+            47          DA-TA-POS         DA-EMP-RECD    +56      7  A                                         -EZDAATTE
+            48              DA-TA-POSCD       DA-EMP-RECD    +56      5  A                                     -EZDAATTE
+            49              DA-TA-POSCDSEQ    DA-EMP-RECD    +61      2  A                                     -EZDAATTE
+            50          DA-HOL-AFFECTED   DA-EMP-RECD    +63      5  A  +                                      -EZDAATTE
+            51              OCCURS 2 INDEX DA-HOL-INDX                                                         -EZDAATTE
+            52              DA-OCCUR-NO   DA-HOL-AFFECTED         3  A                                         -EZDAATTE
+            53              DA-HOL-CODE   DA-HOL-AFFECTED +3      2  A                                         -EZDAATTE
+
+110/31/16 07.22.54                            CA Easytrieve 11.6    SP0                                    PAGE          2
+                                      
+0Programs and all supporting materials copyright (c) 2010 CA. All Rights Reserved
+0           54  *                                                                                              -EZDAATTE
+            55  %EZTIMOFFRY
+            56  MACRO                                                                                          -EZTIMOFF
+            57  *                                                                                              -EZTIMOFF
+            58  TIME-OFF-REQ                    1  520  A                                                      -EZTIMOFF
+            59      TO-PROC-DATE                    1    8  A                                                  -EZTIMOFF
+            60          TO-CENTURY                      1    2  N                                              -EZTIMOFF
+            61          TO-YEAR                         3    2  N                                              -EZTIMOFF
+            62          TO-MONTH                        5    2  N                                              -EZTIMOFF
+            63          TO-DAY                          7    2  N                                              -EZTIMOFF
+            64      TO-PROC-TIME                    9    4  P                                                  -EZTIMOFF
+            65      TO-TERM-ID                     13    4  A                                                  -EZTIMOFF
+            66      TO-FILLER-1                    17    4  A                                                  -EZTIMOFF
+            67      TO-USER-ID                     21    8  A                                                  -EZTIMOFF
+            68      TO-DEPARTMENT                  29    2  A                                                  -EZTIMOFF
+            69      TO-FAC                         31    3  A                                                  -EZTIMOFF
+            70          TO-FAC-BYTE-1                  31    1  A                                              -EZTIMOFF
+            71          TO-FAC-BYTES-2-3               32    2  A                                              -EZTIMOFF
+            72      TO-TMKS                        34    4  A                                                  -EZTIMOFF
+            73      TO-TRAN-TYPE                   38    2  A                                                  -EZTIMOFF
+            74      TO-SYNC-POINT                  40    1  A                                                  -EZTIMOFF
+            75      TO-NAME                        41   19  A                                                  -EZTIMOFF
+            76      TO-SSN                         60    9  A                                                  -EZTIMOFF
+            77      TO-NO-REQ                      69    2  N  0                                               -EZTIMOFF
+            78      TO-REQ                         71   25  A INDEX TOREQ-INDX                                 -EZTIMOFF
+            79          TO-TYPE-REQ            TO-REQ        2  A                                              -EZTIMOFF
+            80          TO-TOT-AMT-TIME        TO-REQ  +2    3  P  2                                           -EZTIMOFF
+            81          TO-TOT-AMT-TIME-X      TO-REQ  +2    3  A                                              -EZTIMOFF
+            82          TO-TIME-CD             TO-REQ  +5    1  A                                              -EZTIMOFF
+            83          TO-BEG-DATE            TO-REQ  +6    8  A                                              -EZTIMOFF
+            84              TO-BEG-CY          TO-BEG-DATE       2  N                                          -EZTIMOFF
+            85              TO-BEG-YR          TO-BEG-DATE +2    2  N                                          -EZTIMOFF
+            86              TO-BEG-MO          TO-BEG-DATE +4    2  N                                          -EZTIMOFF
+            87              TO-BEG-DAY         TO-BEG-DATE +6    2  N                                          -EZTIMOFF
+            88          TO-END-DATE            TO-REQ +14    8  A                                              -EZTIMOFF
+            89              TO-END-CY          TO-END-DATE       2  N                                          -EZTIMOFF
+            90              TO-END-YR          TO-END-DATE +2    2  N                                          -EZTIMOFF
+            91              TO-END-MO          TO-END-DATE +4    2  N                                          -EZTIMOFF
+            92              TO-END-DAY         TO-END-DATE +6    2  N                                          -EZTIMOFF
+            93          TO-DELETE              TO-REQ +22    1  A                                              -EZTIMOFF
+            94          TO-OCCUR-NUM           TO-REQ +23    2  N  0                                           -EZTIMOFF
+            95  *                                                                                              -EZTIMOFF
+            96  %EZRETROCHY
+            97  MACRO                                                                                          -EZRETROC
+            98  *                                                                                              -EZRETROC
+            99  RETRO-CHANGE                    1  286  A                                                      -EZRETROC
+           100      RC-PROC-DATE                    1    8  A                                                  -EZRETROC
+           101          RC-CENTURY                      1    2  N                                              -EZRETROC
+           102          RC-YEAR                         3    2  N                                              -EZRETROC
+           103          RC-MONTH                        5    2  N                                              -EZRETROC
+           104          RC-DAY                          7    2  N                                              -EZRETROC
+           105      RC-PROC-TIME                    9    4  P                                                  -EZRETROC
+           106      RC-TERM-ID                     13    4  A                                                  -EZRETROC
+
+110/31/16 07.22.54                            CA Easytrieve 11.6    SP0                                    PAGE          3
+                                      
+0Programs and all supporting materials copyright (c) 2010 CA. All Rights Reserved
+0          107      RC-FILLER-0                    17    4  A                                                  -EZRETROC
+           108      RC-USER-ID                     21    8  A                                                  -EZRETROC
+           109      RC-DEPARTMENT                  29    2  A                                                  -EZRETROC
+           110      RC-FAC                         31    3  A                                                  -EZRETROC
+           111          RC-FAC-BYTE-1                  31    1  A                                              -EZRETROC
+           112          RC-FAC-BYTES-2-3               32    2  A                                              -EZRETROC
+           113      RC-TMKS                        34    4  A                                                  -EZRETROC
+           114      RC-TRAN-TYPE                   38    2  A                                                  -EZRETROC
+           115      RC-SYNC-POINT                  40    1  A                                                  -EZRETROC
+           116      RC-DATE                        41    8  A                                                  -EZRETROC
+           117          RC-DATE-CY                     41    2  N                                              -EZRETROC
+           118          RC-DATE-YR                     43    2  N                                              -EZRETROC
+           119          RC-DATE-MO                     45    2  N                                              -EZRETROC
+           120          RC-DATE-DAY                    47    2  N                                              -EZRETROC
+           121      RC-NAME                        49   19  A                                                  -EZRETROC
+           122      RC-SSN                         68    9  A                                                  -EZRETROC
+           123      RC-TA-POS                      77    5  A                                                  -EZRETROC
+           124      RC-SFT-BON                     82    3  P  2                                               -EZRETROC
+           125      RC-OT-EL-OV                    85    1  A                                                  -EZRETROC
+           126      RC-REIN-DATE                   86    8  A                                                  -EZRETROC
+           127          RC-REIN-CY                     86    2  N                                              -EZRETROC
+           128          RC-REIN-YR                     88    2  N                                              -EZRETROC
+           129          RC-REIN-MO                     90    2  N                                              -EZRETROC
+           130          RC-REIN-DAY                    92    2  N                                              -EZRETROC
+           131      RC-SCHD-NO                     94    3  A                                                  -EZRETROC
+           132      RC-DAYS-INTO-SCHD              97    2  P                                                  -EZRETROC
+           133      RC-LCH-PD-HR                   99    2  A                                                  -EZRETROC
+           134      RC-OUTS-ERNGS                 101    4  P  2                                               -EZRETROC
+           135      RC-CHG-THRU-DATE              105    8  A                                                  -EZRETROC
+           136          RC-CHG-CY                     105    2  N                                              -EZRETROC
+           137          RC-CHG-YR                     107    2  N                                              -EZRETROC
+           138          RC-CHG-MO                     109    2  N                                              -EZRETROC
+           139          RC-CHG-DAY                    111    2  N                                              -EZRETROC
+           140      RC-POS-CD                     113    5  A                                                  -EZRETROC
+           141      RC-SAL-INCRCD                 118    1  A                                                  -EZRETROC
+           142      RC-SAL-RATE                   119    4  P  2                                               -EZRETROC
+           143      RC-PAY-GRADE                  123    3  A                                                  -EZRETROC
+           144      RC-FILLER-1                   126    1  A                                                  -EZRETROC
+           145      RC-PMNT-ST                    127    1  A                                                  -EZRETROC
+           146      RC-PART-TIME                  128    2  A                                                  -EZRETROC
+           147      RC-TWB                        130    1  A                                                  -EZRETROC
+           148      RC-MRT-ST                     131    1  A                                                  -EZRETROC
+           149      RC-BARG-UNIT-OVRD             132    1  A                                                  -EZRETROC
+           150      RC-NO-FROM-TO                 133    2  N  0                                               -EZRETROC
+           151      RC-OVT-PAY-COMP               135    1  A                                                  -EZRETROC
+           152      RC-PAY-STEP                   136    2  A                                                  -EZRETROC
+           153      RC-POS-CD-SEQ                 138    2  A                                                  -EZRETROC
+           154      RC-TA-SEQ                     140    2  A                                                  -EZRETROC
+           155      RC-FILLER-2                   142   23  A                                                  -EZRETROC
+           156      RC-FROM-TO                    165   10  A  INDEX INDX-RC-FROM-TO                           -EZRETROC
+           157          RC-FROM       RC-FROM-TO             5  A                                              -EZRETROC
+           158              RC-FR-TYPE    RC-FROM                2  A                                          -EZRETROC
+           159              RC-FR-HRS     RC-FROM            +2  2  B                                          -EZRETROC
+
+110/31/16 07.22.54                            CA Easytrieve 11.6    SP0                                    PAGE          4
+                                      
+0Programs and all supporting materials copyright (c) 2010 CA. All Rights Reserved
+0          160              RC-FR-CD      RC-FROM            +4  1  A                                          -EZRETROC
+           161          RC-TO         RC-FROM-TO       +5    5  A                                              -EZRETROC
+           162              RC-TO-TYPE    RC-TO                  2  A                                          -EZRETROC
+           163              RC-TO-HRS     RC-TO              +2  2  B                                          -EZRETROC
+           164              RC-TO-HRS-V   RC-TO              +2  2  B  2                                       -EZRETROC
+           165              RC-TO-CD      RC-TO              +4  1  A                                          -EZRETROC
+           166  *                                                                                              -EZRETROC
+           167  %EZDAEXCEPS
+           168  MACRO                                                                                          -EZDAEXCE
+           169  *                                                                                              -EZDAEXCE
+           170  DAILY-EXCEPTIONS               1  788  A                                                       -EZDAEXCE
+           171      DE-PROC-DATE                   1    8  A                                                   -EZDAEXCE
+           172          DE-CENTURY                     1    2  A                                               -EZDAEXCE
+           173          DE-YEAR                        3    2  A                                               -EZDAEXCE
+           174          DE-MONTH                       5    2  A                                               -EZDAEXCE
+           175          DE-DAY                         7    2  A                                               -EZDAEXCE
+           176      DE-PROC-TIME                   9    4  P                                                   -EZDAEXCE
+           177      DE-TERM-ID                    13    4  A                                                   -EZDAEXCE
+           178      DE-FILLER-1                   17    4  A                                                   -EZDAEXCE
+           179      DE-USER-ID                    21    8  A                                                   -EZDAEXCE
+           180      DE-DEPARTMENT                 29    2  A                                                   -EZDAEXCE
+           181      DE-FAC                        31    3  A                                                   -EZDAEXCE
+           182          DE-FAC-BYTE-1                 31    1  A                                               -EZDAEXCE
+           183          DE-FAC-BYTES-2-3              32    2  A                                               -EZDAEXCE
+           184      DE-TMKS                       34    4  A                                                   -EZDAEXCE
+           185      DE-TRAN-TYPE                  38    2  A                                                   -EZDAEXCE
+           186      DE-SYNC-POINT                 40    1  A                                                   -EZDAEXCE
+           187      DE-DATE                       41    8  A                                                   -EZDAEXCE
+           188          DE-DATE-CY                    41    2  N                                               -EZDAEXCE
+           189          DE-DATE-YR                    43    2  N                                               -EZDAEXCE
+           190          DE-DATE-MO                    45    2  N                                               -EZDAEXCE
+           191          DE-DATE-DA                    47    2  N                                               -EZDAEXCE
+           192      DE-NO-EMP-PG                  49    2  N                                                   -EZDAEXCE
+           193      DE-EMP-RECD                   51   45  A INDEX DEEMP-INDX                                  -EZDAEXCE
+           194          DE-NAME        DA-EMP-RECD         19  A                                               -EZDAEXCE
+           195          DE-SSN         DA-EMP-RECD   +19    9  A                                               -EZDAEXCE
+           196          DE-CK-OFF      DA-EMP-RECD   +28    1  A                                               -EZDAEXCE
+           197          DE-OT-P-C      DA-EMP-RECD   +29    1  A                                               -EZDAEXCE
+           198          DE-OT-LIQ      DA-EMP-RECD   +30    3  P  2                                            -EZDAEXCE
+           199          DE-OT-LIQ-X    DA-EMP-RECD   +30    3  A                                               -EZDAEXCE
+           200          DE-HOL-P-C     DA-EMP-RECD   +33    1  A                                               -EZDAEXCE
+           201          DE-HOL-LIQ     DA-EMP-RECD   +34    3  P  2                                            -EZDAEXCE
+           202          DE-HOL-LIQ-X   DA-EMP-RECD   +34    3  A                                               -EZDAEXCE
+           203          DE-SFT-BON     DA-EMP-RECD   +37    3  P  2                                            -EZDAEXCE
+           204          DE-OT-EL-OV    DA-EMP-RECD   +40    1  A                                               -EZDAEXCE
+           205          DE-RC-P-C      DA-EMP-RECD   +41    1  A                        *8                     -EZDAEXCE
+           206          DE-RC-LIQ      DA-EMP-RECD   +42    3  P  2                     *8                     -EZDAEXCE
+           207          DE-RC-LIQ-X    DA-EMP-RECD   +42    3  A                        *8                     -EZDAEXCE
+           208  *                                                                                              -EZDAEXCE
+           209  TT-TRAN-READ        9 6653 A
+           210  *
+           211  FILE INSEC
+           212      %EZPASEC
+
+110/31/16 07.22.54                            CA Easytrieve 11.6    SP0                                    PAGE          5
+                                      
+0Programs and all supporting materials copyright (c) 2010 CA. All Rights Reserved
+0          213  MACRO                                                                                          -EZPASEC
+           214      SC-EZPASEC           1 268  A                                                              -EZPASEC
+           215      SC-KEY               1  38  A                                                              -EZPASEC
+           216      SC-DEPARTMENT        1   2  A                                                              -EZPASEC
+           217      SC-FACILITY          3   3  A                                                              -EZPASEC
+           218      SC-INCLUDE-GROUP     6  20  A                                                              -EZPASEC
+           219      SC-ACTION           26   4  A                                                              -EZPASEC
+           220      SC-GROUP            26   3  A                                                              -EZPASEC
+           221      SC-USERID           30   8  A                                                              -EZPASEC
+           222      SC-GROUP-ACTION     30   4  A                                                              -EZPASEC
+           223      SC-ACTIVE           38   1  A                                                              -EZPASEC
+           224      SC-EXCLUDE-GROUP    39  20  A                                                              -EZPASEC
+           225      SC-AUTH-LEVEL       59   2  A                                                              -EZPASEC
+           226      SC-PRINTER-ID       61   8  A                                                              -EZPASEC
+           227      SC-USER-SSN         69   9  A                                                              -EZPASEC
+           228      SC-LOCK-MESSAGE     69  45  A                                                              -EZPASEC
+           229      SC-USER-NAME        78  19  A                                                              -EZPASEC
+           230      SC-USER-PHONE       97  10  A                                                              -EZPASEC
+           231      SC-USER-LOCATION   107  20  A                                                              -EZPASEC
+           232      SC-PAY-PERIOD       69   6  A                                                              -EZPASEC
+           233      SC-PAY-PERIOD-CY    69   4  A                                                              -EZPASEC
+           234      SC-PAY-PERIOD-NUM   73   2  A                                                              -EZPASEC
+           235      SC-CYCLE-BEGIN-DATE 75   8  A                                                              -EZPASEC
+           236      SC-CYCLE-BEGIN-CY   75   4  A                                                              -EZPASEC
+           237      SC-CYCLE-BEGIN-MM   79   2  A                                                              -EZPASEC
+           238      SC-CYCLE-BEGIN-DD   81   2  A                                                              -EZPASEC
+           239      SC-CYCLE-END-DATE   83   8  A                                                              -EZPASEC
+           240      SC-CYCLE-END-CY     83   4  A                                                              -EZPASEC
+           241      SC-CYCLE-END-MM     87   2  A                                                              -EZPASEC
+           242      SC-CYCLE-END-DD     89   2  A                                                              -EZPASEC
+           243      SC-DATE-GRANTED    127  26  A                                                              -EZPASEC
+           244      SC-GRANTOR         153   8  A                                                              -EZPASEC
+           245      SC-GRANTOR-SSN     161   9  A                                                              -EZPASEC
+           246      SC-GRANTOR-NAME    170  19  A                                                              -EZPASEC
+           247      SC-BEGIN-TIME      189  26  A                                                              -EZPASEC
+           248      SC-END-TIME        215  26  A                                                              -EZPASEC
+           249      SC-MONDAY          241   1  A                                                              -EZPASEC
+           250      SC-TUESDAY         242   1  A                                                              -EZPASEC
+           251      SC-WEDNESDAY       243   1  A                                                              -EZPASEC
+           252      SC-THURSDAY        244   1  A                                                              -EZPASEC
+           253      SC-FRIDAY          245   1  A                                                              -EZPASEC
+           254      SC-SATURDAY        246   1  A                                                              -EZPASEC
+           255      SC-SUNDAY          247   1  A                                                              -EZPASEC
+           256      SC-AIX-KEY         248  17  A                                                              -EZPASEC
+           257      SC-AIX-USERID      248   8  A                                                              -EZPASEC
+           258      SC-AIX-ACTION      256   4  A                                                              -EZPASEC
+           259      SC-AIX-DEPARTMENT  260   2  A                                                              -EZPASEC
+           260      SC-AIX-FACILITY    262   3  A                                                              -EZPASEC
+           261      SC-AIX-INC-GROUP   265   4  A                                                              -EZPASEC
+           262
+           263  WS-TRUNCATE      W  6653  A
+           264  *
+           265  JOB INPUT TIMETRAN START( INITIALIZE )
+
+110/31/16 07.22.54                            CA Easytrieve 11.6    SP0                                    PAGE          6
+                                      
+0Programs and all supporting materials copyright (c) 2010 CA. All Rights Reserved
+0          266
+           267  MOVE TT-TRAN-READ TO WS-TRUNCATE
+           268  TIMETRAN:RECORD-LENGTH = TIMETRAN:RECORD-LENGTH - 8
+           269  MOVE WS-TRUNCATE TO TT-TRAN-FIX
+           270
+           271  *F ( DA-USER-ID = SC-USERID )
+           272      IF DA-TRAN-TYPE = 'DR'
+           273          PERFORM CHECK-DR
+           274      ELSE-IF DA-TRAN-TYPE = 'TO'
+           275          IF TO-SSN = SC-USER-SSN
+           276              PERFORM CHECK-TO
+           277          END-IF
+           278      ELSE-IF DA-TRAN-TYPE = 'RT'
+           279          IF RC-SSN = SC-USER-SSN
+           280              PERFORM RT-PRINT
+           281          END-IF
+           282      ELSE-IF DA-TRAN-TYPE = 'EX'
+           283          PERFORM CHECK-EX
+           284      END-IF
+           285  *ND-IF
+           286
+           287  INITIALIZE. PROC
+           288      GET INSEC
+           289  END-PROC
+           290
+           291  CHECK-DR. PROC
+           292
+           293      DAEMP-INDX = 0
+           294      DO WHILE DA-NO-EMP-PG > 0
+           295          IF DA-SSN = SC-USER-SSN
+           296              IF DA-TYPE(1) = X'0000'
+           297                  MOVE SPACES TO DA-TYPE(1)
+           298                  MOVE ZEROES TO DA-HRS(1)
+           299                  MOVE SPACES TO DA-CODE(1)
+           300              END-IF
+           301              IF DA-TYPE(2) = X'0000'
+           302                  MOVE SPACES TO DA-TYPE(2)
+           303                  MOVE ZEROES TO DA-HRS(2)
+           304                  MOVE SPACES TO DA-CODE(2)
+           305              END-IF
+           306              IF DA-TYPE(3) = X'0000'
+           307                  MOVE SPACES TO DA-TYPE(3)
+           308                  MOVE ZEROES TO DA-HRS(3)
+           309                  MOVE SPACES TO DA-CODE(3)
+           310              END-IF
+           311              IF DA-TYPE(4) = X'0000'
+           312                  MOVE SPACES TO DA-TYPE(4)
+           313                  MOVE ZEROES TO DA-HRS(4)
+           314                  MOVE SPACES TO DA-CODE(4)
+           315              END-IF
+           316              DA-NAME = 'TESTY MCTESTLOT'
+           317              DA-SSN  = '111111111'
+           318              PRINT REPORTA
+
+110/31/16 07.22.54                            CA Easytrieve 11.6    SP0                                    PAGE          7
+                                      
+0Programs and all supporting materials copyright (c) 2010 CA. All Rights Reserved
+0          319         *    PUT LISATIME FROM TIMETRAN
+           320          END-IF
+           321          DA-NO-EMP-PG = DA-NO-EMP-PG - 1
+           322          DAEMP-INDX   = DAEMP-INDX + 73
+           323      END-DO
+           324  END-PROC
+           325
+           326  CHECK-EX. PROC
+           327      DEEMP-INDX = 0
+           328      DO WHILE DE-NO-EMP-PG > 0
+           329          IF DE-SSN = SC-USER-SSN
+           330              IF DE-OT-LIQ-X NUMERIC
+           331              ELSE
+           332                  DE-OT-LIQ = 0
+           333              END-IF
+           334              IF DE-HOL-LIQ-X NUMERIC
+           335              ELSE
+           336                  DE-HOL-LIQ = 0
+           337              END-IF
+           338              PRINT REPORTEX
+           339          END-IF
+           340          DE-NO-EMP-PG = DE-NO-EMP-PG - 1
+           341          DEEMP-INDX   = DEEMP-INDX + 41
+           342      END-DO
+           343  END-PROC
+           344
+           345  CHECK-TO. PROC
+           346
+           347      TOREQ-INDX = 0
+           348      DO WHILE TO-NO-REQ > 0
+           349          PRINT REPORTB
+           350          TO-NO-REQ  = TO-NO-REQ - 1
+           351          TOREQ-INDX = TOREQ-INDX + 25
+           352      END-DO
+           353
+           354  END-PROC
+           355
+           356  RT-PRINT. PROC
+           357
+           358      INDX-RC-FROM-TO = 0
+           359      IF RC-NO-FROM-TO > 0
+           360          DO WHILE INDX-RC-FROM-TO < ( RC-NO-FROM-TO * 10 )
+           361              IF RC-FR-TYPE = '  '
+           362                  RC-FR-HRS = 0
+           363              END-IF
+           364              IF RC-TO-TYPE = '  '
+           365                  RC-TO-HRS = 0
+           366              END-IF
+           367              PRINT REPORTC
+           368              INDX-RC-FROM-TO = INDX-RC-FROM-TO + 10
+           369          END-DO
+           370      END-IF
+           371
+
+110/31/16 07.22.54                            CA Easytrieve 11.6    SP0                                    PAGE          8
+                                      
+0Programs and all supporting materials copyright (c) 2010 CA. All Rights Reserved
+0          372  END-PROC
+           373
+           374  REPORT REPORTA PRINTER REPORTA
+           375  SEQUENCE DA-PROC-DATE
+           376  *ONTROL DA-DATE
+           377  TITLE 1 'REPORT OF DAILY ATTENDANCE TIMEKEEPING TRANSACTIONS'
+           378  TITLE 2 '03/01/2015 THROUGH 04/03/2015'
+           379  HEADING DA-DATE ( 'DATE' 'WORKED' )
+           380  HEADING DA-PROC-DATE ( 'DATE' 'ENTERED' )
+           381  LINE  1  DA-PROC-DATE DA-DATE DA-USER-ID DA-NAME DA-SSN DA-CK-OFF +
+           382           DA-TA-POS DA-TYPE(1) DA-HRS(1) DA-CODE(1)
+           383  LINE  2  POS 8 DA-TYPE(2) DA-HRS(2) DA-CODE(2)
+           384  LINE  3  POS 8 DA-TYPE(3) DA-HRS(3) DA-CODE(3)
+           385  LINE  4  POS 8 DA-TYPE(4) DA-HRS(4) DA-CODE(4)
+           386
+           387  REPORT REPORTB PRINTER REPORTB
+           388  SEQUENCE TO-PROC-DATE
+           389  TITLE 1 'REPORT OF TIME BALANCE ADJUSTMENT TIMEKEEPING TRANSACTIONS'
+           390  TITLE 2 '01/22/2015 THROUGH 01/27/2015'
+           391  HEADING TO-PROC-DATE ( 'DATE' 'ENTERED' )
+           392  LINE  1  TO-PROC-DATE TO-USER-ID TO-NAME TO-SSN, +
+           393           TO-TYPE-REQ, TO-TOT-AMT-TIME, TO-TIME-CD
+           394
+           395  REPORT REPORTC PRINTER REPORTC SPACE 1
+           396  SEQUENCE RC-DATE, RC-PROC-DATE, RC-PROC-TIME
+           397  CONTROL
+           398  TITLE 1 'LISTING OF RETRO TRANSACTIONS ENTERED'
+           399  HEADING RC-PROC-DATE('DATE' 'ENTERED')
+           400  HEADING RC-PROC-TIME('TIME' 'ENTERED')
+           401  HEADING RC-USER-ID('USER ID')
+           402  HEADING RC-NAME('N' 'A' 'M' 'E')
+           403  HEADING RC-DATE('DATE' 'WORKED')
+           404  HEADING RC-FR-TYPE('FROM' 'TYPE')
+           405  HEADING RC-FR-HRS('FROM' 'HOURS')
+           406  HEADING RC-TO-TYPE('TO' 'TYPE')
+           407  HEADING RC-TO-HRS('TO' 'HOURS')
+           408  LINE  1 RC-PROC-DATE RC-PROC-TIME RC-USER-ID RC-NAME +
+           409          RC-DATE RC-FR-TYPE RC-FR-HRS    +
+           410          RC-TO-TYPE RC-TO-HRS
+           411
+           412  REPORT REPORTEX PRINTER REPORTEX SPACE 1
+           413  SEQUENCE RC-DATE, RC-PROC-DATE, RC-PROC-TIME
+           414  CONTROL
+           415  TITLE 1 'LISTING OF RETRO TRANSACTIONS ENTERED'
+           416  HEADING DE-PROC-DATE('DATE' 'ENTERED')
+           417  HEADING DE-PROC-TIME('TIME' 'ENTERED')
+           418  HEADING DE-USER-ID('USER ID')
+           419  HEADING DE-NAME('N' 'A' 'M' 'E')
+           420  HEADING DE-OT-P-C( 'OT P/C' )
+           421  HEADING DE-OT-LIQ( 'OT LIQ' )
+           422  HEADING DE-HOL-P-C( 'HOL P/C' )
+           423  HEADING DE-HOL-LIQ( 'HOL LIQ' )
+           424  HEADING DE-SFT-BON( 'SHIFT' 'BONUS' )
+
+110/31/16 07.22.54                            CA Easytrieve 11.6    SP0                                    PAGE          9
+                                      
+0Programs and all supporting materials copyright (c) 2010 CA. All Rights Reserved
+0          425  *INE  1 DE-PROC-DATE DE-PROC-TIME DE-USER-ID DE-NAME +
+           426  *       DE-OT-P-C, DE-OT-LIQ, DE-HOL-P-C, DE-HOL-LIQ, DE-SFT-BON
+           427  LINE  1 DE-PROC-DATE DE-PROC-TIME DE-USER-ID DE-NAME +
+           428          DE-OT-P-C, DE-OT-LIQ, DE-HOL-P-C, DE-HOL-LIQ
+
+110/31/16 07.22.54                            CA Easytrieve 11.6    SP0                                    PAGE         10
+                                      
+0Programs and all supporting materials copyright (c) 2010 CA. All Rights Reserved
+0CLIST
+0OFFSET (HEX)    00005A 0000A6 0000CE 0000DA 0000EC 0000F6 0000FA 000108 000128 00012C 00013A 00015A 00015E 00016C 00017
+ STATEMENT NO.      265    267    268    269    272    273    274    275    276    278    279    280    282    283    28
+0OFFSET (HEX)    000192 0001A4 0001B2 0001BE 0001E4 00023E 000248 000252 000258 00025C 000266 000270 000276 00027A 00028
+ STATEMENT NO.      288    289    293    294    295    296    297    298    299    301    302    303    304    306    30
+0OFFSET (HEX)    00028E 000294 000298 0002A2 0002AC 0002B2 0002B6 0002FA 000334 000338 00036C 00037E 000382 000390 00039
+ STATEMENT NO.      308    309    311    312    313    314    316    317    318    321    322    323    324    327    32
+0OFFSET (HEX)    0003C2 00041C 00046E 000472 0004AC 0004FA 0004FE 000538 000544 000570 000582 000586 000594 0005A0 0005C
+ STATEMENT NO.      329    330    331    332    334    335    336    338    340    341    342    343    347    348    34
+0OFFSET (HEX)    0005CE 000606 000618 00061C 00062A 000636 00065C 000690 0006CE 000708 000746 000780 000788 00079A 0007A
+ STATEMENT NO.      350    351    352    354    358    359    360    361    362    364    365    367    368    369    37
+0OFFSET (HEX)    0007B0 0010A4 00171E 001EF6 00062A 000636 00065C 000690 0006CE 000708 000746 000780 000788 00079A 0007A
+ STATEMENT NO.      385    392    408    427    358    359    360    361    362    364    365    367    368    369    37
+0END OF PROGRAM
+
+110/31/16 07.22.54                            CA Easytrieve 11.6    SP0                                    PAGE         11
+                                      
+0Programs and all supporting materials copyright (c) 2010 CA. All Rights Reserved
+0Cross reference listing (XREF)
+0Symbol                                         Defined at    References
+0DA-CK-OFF                                      39 DEFINE     382 LINE
+ DA-CODE                                        44 DEFINE     385 LINE       384 LINE       383 LINE       382 LINE
+                                                              314 MOVE       309 MOVE       304 MOVE       299 MOVE
+ DA-DAILY-TIME                                  41 DEFINE      44 DEFINE      43 DEFINE      42 DEFINE
+ DA-DATE                                        30 DEFINE     381 LINE       379 HEADING
+ DA-EMP-RECD                                    36 DEFINE     207 DEFINE     206 DEFINE     205 DEFINE     204 DEFINE
+                                                              203 DEFINE     202 DEFINE     201 DEFINE     200 DEFINE
+                                                              199 DEFINE     198 DEFINE     197 DEFINE     196 DEFINE
+                                                              195 DEFINE     194 DEFINE      50 DEFINE      49 DEFINE
+                                                               48 DEFINE      47 DEFINE      46 DEFINE      45 DEFINE
+                                                               40 DEFINE      39 DEFINE      38 DEFINE      37 DEFINE
+ DA-HOL-AFFECTED                                51 DEFINE      53 DEFINE      52 DEFINE
+ DA-HRS                                         43 DEFINE     385 LINE       384 LINE       383 LINE       382 LINE
+                                                              313 MOVE       308 MOVE       303 MOVE       298 MOVE
+ DA-NAME                                        37 DEFINE     381 LINE       316 END-IF
+ DA-NO-EMP-PG                                   35 DEFINE     321 =          321 END-IF     294 DO
+ DA-PROC-DATE                                   14 DEFINE     381 LINE       380 HEADING    375 SEQUENCE
+ DA-SSN                                         38 DEFINE     381 LINE       317 =          295 IF
+ DA-TA-POS                                      47 DEFINE     382 LINE
+ DA-TRAN-TYPE                                   28 DEFINE     282 ELSE-IF    278 ELSE-IF    274 ELSE-IF    272 IF
+ DA-TYPE                                        42 DEFINE     385 LINE       384 LINE       383 LINE       382 LINE
+                                                              312 MOVE       311 IF         307 MOVE       306 IF
+                                                              302 MOVE       301 IF         297 MOVE       296 IF
+ DA-USER-ID                                     22 DEFINE     381 LINE
+ DAEMP-INDX                                     36 DEFINE     322 =          322 =          293 PROC
+ DE-HOL-LIQ                                    201 DEFINE     428 LINE       423 HEADING    336 ELSE
+ DE-HOL-LIQ-X                                  202 DEFINE     334 IF
+ DE-HOL-P-C                                    200 DEFINE     428 LINE       422 HEADING
+ DE-NAME                                       194 DEFINE     428 LINE       419 HEADING
+ DE-NO-EMP-PG                                  192 DEFINE     340 =          340 END-IF     328 DO
+ DE-OT-LIQ                                     198 DEFINE     428 LINE       421 HEADING    332 ELSE
+ DE-OT-LIQ-X                                   199 DEFINE     330 IF
+ DE-OT-P-C                                     197 DEFINE     428 LINE       420 HEADING
+ DE-PROC-DATE                                  171 DEFINE     427 LINE       416 HEADING
+ DE-PROC-TIME                                  176 DEFINE     427 LINE       417 HEADING
+ DE-SFT-BON                                    203 DEFINE     424 HEADING
+ DE-SSN                                        195 DEFINE     329 IF
+ DE-USER-ID                                    179 DEFINE     427 LINE       418 HEADING
+ DEEMP-INDX                                    193 DEFINE     341 =          341 =          327 PROC
+ INDX-RC-FROM-TO                               156 DEFINE     368 =          368 PRINT      360 DO         358 PROC
+ INSEC                                         211 FILE       288 GET
+ RC-DATE                                       116 DEFINE     413 SEQUENCE   409 LINE       403 HEADING    396 SEQUENCE
+ RC-FR-HRS                                     159 DEFINE     410 LINE       405 HEADING    362 IF
+ RC-FR-TYPE                                    158 DEFINE     409 LINE       404 HEADING    361 IF
+ RC-FROM-TO                                    156 DEFINE     161 DEFINE     157 DEFINE
+ RC-FROM                                       157 DEFINE     160 DEFINE     159 DEFINE     158 DEFINE
+ RC-NAME                                       121 DEFINE     409 LINE       402 HEADING
+ RC-NO-FROM-TO                                 150 DEFINE     360 DO         359 IF
+ RC-PROC-DATE                                  100 DEFINE     413 SEQUENCE   408 LINE       399 HEADING    396 SEQUENCE
+
+110/31/16 07.22.54                            CA Easytrieve 11.6    SP0                                    PAGE         12
+                                     
+0Programs and all supporting materials copyright (c) 2010 CA. All Rights Reserved
+0Symbol                                         Defined at    References
+0RC-PROC-TIME                                  105 DEFINE     413 SEQUENCE   408 LINE       400 HEADING    396 SEQUENCE
+ RC-SSN                                        122 DEFINE     279 IF
+ RC-TO                                         161 DEFINE     165 DEFINE     164 DEFINE     163 DEFINE     162 DEFINE
+ RC-TO-HRS                                     163 DEFINE     410 LINE       407 HEADING    365 IF
+ RC-TO-TYPE                                    162 DEFINE     410 LINE       406 HEADING    364 IF
+ RC-USER-ID                                    108 DEFINE     408 LINE       401 HEADING
+ RECORD-LENGTH                                   8 FILE       268 =          268 MOVE
+ REPORTA                                         3 FILE       374 REPORT
+ REPORTB                                         4 FILE       387 REPORT
+ REPORTC                                         5 FILE       395 REPORT
+ REPORTEX                                        6 FILE       412 REPORT
+ SC-USER-SSN                                   227 DEFINE     329 IF         295 IF         279 IF         275 IF
+ TIMETRAN                                        8 FILE       265 JOB
+ TO-BEG-DATE                                    83 DEFINE      87 DEFINE      86 DEFINE      85 DEFINE      84 DEFINE
+ TO-END-DATE                                    88 DEFINE      92 DEFINE      91 DEFINE      90 DEFINE      89 DEFINE
+ TO-NAME                                        75 DEFINE     392 LINE
+ TO-NO-REQ                                      77 DEFINE     350 =          350 PRINT      348 DO
+ TO-PROC-DATE                                   59 DEFINE     392 LINE       391 HEADING    388 SEQUENCE
+ TO-REQ                                         78 DEFINE      94 DEFINE      93 DEFINE      88 DEFINE      83 DEFINE
+                                                               82 DEFINE      81 DEFINE      80 DEFINE      79 DEFINE
+ TO-SSN                                         76 DEFINE     393 LINE       275 IF
+ TO-TIME-CD                                     82 DEFINE     393 LINE
+ TO-TOT-AMT-TIME                                80 DEFINE     393 LINE
+ TO-TYPE-REQ                                    79 DEFINE     393 LINE
+ TO-USER-ID                                     67 DEFINE     392 LINE
+ TOREQ-INDX                                     78 DEFINE     351 =          351 =          347 PROC
+ TT-TRAN-FIX                                     9 DEFINE     269 MOVE
+ TT-TRAN-READ                                  209 DEFINE     267 MOVE
+ WORK                                              NO TOKEN
+ WS-TRUNCATE                                   263 DEFINE     269 MOVE       267 MOVE
+
+110/31/16 07.22.54                            CA Easytrieve 11.6    SP0                                    PAGE         13
+                                      
+0Programs and all supporting materials copyright (c) 2010 CA. All Rights Reserved
+0Compile Summary
+0 Diagnostics Count
+0  There are no syntax errors. There are no name errors. There are no warning messages.
+0 Compile Options
+0  Compile Directives
+    ASCSIGN(D)                   LISTPRM(YES)                  module(easyplus)            UPDTIDM(N)
+    BIND(DYNAMIC)                LISTUC(NO)                    userid()                    UPDTVS(YES)
+    CALCDUP(NO)                  MACDDN(PANDD)                SCANCOLE(72)                 VERFILE(HIGHEST)
+    CALL(DYNAMIC)                MACMOD(PANMODI)              SCANCOLS(1)                  VERREC(HIGHEST)
+    CLIST(YES)                   MACTYPE(PAN)                 SQLID()                      VERSCHM(HIGHEST)
+    COMPILE(NO)                  MAC#LIB(2)                   PLANOPTS()                   WARNCC(Z)
+    DMAP(NO)                     MONEY($)                     SQLSYNTAX(FULL)              WARNSYM(+)
+    ERORSYM($)                   PLAN                         SYNTAX(NO)                   WKDSNPF(EZT)
+    ENVIRONMENT(NONE)             name  ()                    STATE(YES)                   XREF(SHORT)
+    FLDCHK(YES)                   module()                    USERID()
+    LINK()                       PMAP(NO)                     UPDTDLI(YES)
+    LISTFIL(YES)                 PREPNAME                     UPDTIDD(YES)
+0  Report Generation Options
+    ACROSS(4)                    LINESIZ(132)                 SKIP(0)                      TALYSIZ(2)
+    DOWN(6)                      NEWPAGE(NO)                  SPACE(3)                     TITLSKP(3)
+    DTLCTL(FIRST)                PAGESIZ(58)                  SPREAD(NO)                   TOTALWRD(TOTAL)
+    FINALWRD(FINAL)              PAGEWRD(PAGE)                SUMCTL(HIAR)
+    LABLSIZ(30)                  PHYSPAGE(0)                  SUMSPAC(3)
+0 Execution Override Options
+0   ABEXIT(SNAP)                 MTVSERR(NO)                  SORTMAX(YES)                 VFMSPAC(64)
+    ALTSEQU(NO)                  NUMWORK(3)                   SORTSIZ(0)                   WORKFILE(NO)
+    BLOCK0(N)                    SINXIT()                     SORTWRK(SYSDA)               WORKFSPA(20)
+    CALL(AMODE24)                SORTMSG(DEFAULT)             SPRTXIT()
+    PFLOW(NO)                    SORTMSR(PRINTER)             SSID()
+    FLOWSIZ(100)                 SORTRLS(0)                   STATE(YES)
+0 Source input file
+0   SYSIN
+0 Macro library search list
+0   ( .; )
+1         FILE STATISTICS - CA Easytrieve 11.6 SP0-10/31/16-07.22.54AM-UNNAMED JOB:STMT   265
+0         File Name              RecCount   Mode       Org      Format    RecLen  BlkLen   Status
+          EZTR004                         0 Output     VFM         Fixed       67    N/A   Closed
+          EZTR003                         0 Output     VFM         Fixed       55    N/A   Closed
+          EZTR002                         0 Output     VFM         Fixed       50    N/A   Closed
+          EZTR001                       221 Input      VFM         Fixed       84    N/A   Closed
+          INSEC                           1 Input   Sequential     Fixed      268  27872   Closed
+          TIMETRAN                  983,462 Input   Sequential   Variable    6661  27998   End of file
+          REPORTA                       974 Output  Sequential     Fixed      133    133   Closed

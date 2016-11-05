@@ -1,0 +1,98 @@
+//DHS9172X JOB  3206100TM002,WRIGHT,REGION=6M,TIME=2,NOTIFY=DHS9172,
+//         CLASS=T
+/*JOBPARM  L=999
+//LIB JCLLIB ORDER=DHS.PROCLIB
+/*ROUTE PRINT N2R66
+//**********************************************************************
+//DELETE   EXEC PGM=IEFBR14
+//OUTSEC   DD   DSN=DHS9172.OUTSEC,UNIT=DISK,
+//         DISP=(MOD,DELETE,DELETE),SPACE=(CYL,0)
+//OUTSEC2  DD   DSN=DHS9172.OUTSEC2,UNIT=DISK,
+//         DISP=(MOD,DELETE,DELETE),SPACE=(CYL,0)
+//**********************************************************************
+//PASEC    EXEC MHEZYPLS
+//PASEC    DD   DSN=MH.PAPO.PASEC,DISP=SHR,AMP=('BUFND=20')
+//OUTSEC   DD   DSN=DHS9172.OUTSEC,UNIT=DISK,DISP=(,CATLG),
+//         DCB=(LRECL=268,BLKSIZE=27872,RECFM=FB),
+//         SPACE=(CYL,(1,1),RLSE),BUFNO=20
+//OUTSEC2  DD   DSN=DHS9172.OUTSEC2,UNIT=DISK,DISP=(,CATLG),
+//         DCB=(LRECL=268,BLKSIZE=27872,RECFM=FB),
+//         SPACE=(CYL,(1,1),RLSE),BUFNO=20
+//INSSN    DD   DSN=DHS9172.PDS.WORK7(INSSN),DISP=SHR,BUFNO=20)
+//SYSIN    DD   *
+
+FILE PASEC VS
+    SC-EZPASEC           1 268  A                                                              
+    SC-KEY               1  38  A                                                              
+    SC-DEPARTMENT        1   2  A                                                              
+    SC-FACILITY          3   3  A                                                              
+    SC-INCLUDE-GROUP     6  20  A                                                              
+    SC-ACTION           26   4  A                                                              
+    SC-GROUP            26   3  A                                                              
+    SC-USERID           30   8  A                                                              
+    SC-GROUP-ACTION     30   4  A                                                              
+    SC-ACTIVE           38   1  A                                                              
+    SC-EXCLUDE-GROUP    39  20  A                                                              
+    SC-AUTH-LEVEL       59   2  A                                                              
+    SC-PRINTER-ID       61   8  A                                                              
+    SC-USER-SSN         69   9  A                                                              
+    SC-LOCK-MESSAGE     69  45  A                                                              
+    SC-USER-NAME        78  19  A                                                              
+    SC-USER-PHONE       97  10  A                                                              
+    SC-USER-LOCATION   107  20  A                                                              
+    SC-PAY-PERIOD       69   6  A                                                              
+    SC-PAY-PERIOD-CY    69   4  A                                                              
+    SC-PAY-PERIOD-NUM   73   2  A                                                              
+    SC-CYCLE-BEGIN-DATE 75   8  A                                                              
+    SC-CYCLE-BEGIN-CY   75   4  A                                                              
+    SC-CYCLE-BEGIN-MM   79   2  A                                                              
+    SC-CYCLE-BEGIN-DD   81   2  A                                                              
+    SC-CYCLE-END-DATE   83   8  A                                                              
+    SC-CYCLE-END-CY     83   4  A                                                              
+    SC-CYCLE-END-MM     87   2  A                                                              
+    SC-CYCLE-END-DD     89   2  A                                                              
+    SC-DATE-GRANTED    127  26  A                                                              
+    SC-GRANTOR         153   8  A                                                              
+    SC-GRANTOR-SSN     161   9  A                                                              
+    SC-GRANTOR-NAME    170  19  A                                                              
+    SC-BEGIN-TIME      189  26  A                                                              
+    SC-END-TIME        215  26  A                                                              
+    SC-MONDAY          241   1  A                                                              
+    SC-TUESDAY         242   1  A                                                              
+    SC-WEDNESDAY       243   1  A                                                              
+    SC-THURSDAY        244   1  A                                                              
+    SC-FRIDAY          245   1  A                                                              
+    SC-SATURDAY        246   1  A                                                              
+    SC-SUNDAY          247   1  A                                                              
+    SC-AIX-KEY         248  17  A                                                              
+    SC-AIX-USERID      248   8  A                                                              
+    SC-AIX-ACTION      256   4  A                                                              
+    SC-AIX-DEPARTMENT  260   2  A                                                              
+    SC-AIX-FACILITY    262   3  A                                                              
+    SC-AIX-INC-GROUP   265   4  A    
+
+FILE OUTSEC
+    COPY PASEC
+
+FILE OUTSEC2
+
+FILE INSSN TABLE
+    ARG  1  9  A
+    DESC 1  9  A
+
+WS-SSN   W  9  A
+
+JOB INPUT PASEC
+    SEARCH INSSN WITH PASEC:SC-USER-SSN GIVING WS-SSN
+    IF PASEC:SC-USER-SSN = WS-SSN
+        PUT OUTSEC FROM PASEC
+    END-IF
+
+JOB INPUT ( OUTSEC KEY ( OUTSEC:SC-USER-SSN ) )
+    IF DUPLICATE OUTSEC
+        IF FIRST-DUP OUTSEC
+            PUT OUTSEC2 FROM OUTSEC
+        END-IF
+    ELSE
+        PUT OUTSEC2 FROM OUTSEC
+    END-IF

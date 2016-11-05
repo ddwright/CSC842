@@ -1,0 +1,422 @@
+1                       J E S 2  J O B  L O G  --  S Y S T E M  2 4 6 0  --  N O D E  J E S H
+0
+ 06.57.06 JOB02365 ---- MONDAY,    31 OCT 2016 ----
+ 06.57.06 JOB02365  IRR010I  USERID DHS9172  IS ASSIGNED TO THIS JOB.
+ 06.57.06 JOB02365  ICH70001I DHS9172  LAST ACCESS AT 06:56:45 ON MONDAY, OCTOBER 31, 2016
+ 06.57.06 JOB02365  $HASP373 DHS9172X STARTED - INIT 38   - CLASS T        - SYS 2460
+ 06.57.06 JOB02365  IEF403I DHS9172X - STARTED
+ 06.57.06 JOB02365  -                                      -----TIMINGS (MINS.)------                          -----PAGING COUNTS----
+ 06.57.06 JOB02365  -STEPNAME PROCSTEP    RC   EXCP   CONN       TCB       SRB  CLOCK          SERV  WORKLOAD  PAGE  SWAP   VIO SWAPS
+ 06.57.06 JOB02365  -DELETE               00      7      4       .00       .00     .0            34  BATCHP       0     0     0     0
+ 06.57.08 JOB02365  -PASEC    EASYPLUS    00   1870    849       .00       .00     .0          7664  BATCHP       0     0     0     0
+ 06.57.08 JOB02365  -PASEC    LKED     FLUSH      0      0       .00       .00     .0                BATCHP       0     0     0     0
+ 06.57.08 JOB02365  IEF404I DHS9172X - ENDED
+ 06.57.08 JOB02365  -DHS9172X ENDED.  NAME-WRIGHT               TOTAL TCB CPU TIME=      .00 TOTAL ELAPSED TIME=    .0 SUBSYS=JES2
+ 06.57.08 JOB02365  $HASP395 DHS9172X ENDED - RC=0000
+0------ JES2 JOB STATISTICS ------
+-  31 OCT 2016 JOB EXECUTION DATE
+-           52 CARDS READ
+-          430 SYSOUT PRINT RECORDS
+-            0 SYSOUT PUNCH RECORDS
+-           45 SYSOUT SPOOL KBYTES
+-         0.02 MINUTES EXECUTION TIME
+         1 //DHS9172X JOB  3206100TM002,WRIGHT,REGION=6M,TIME=2,NOTIFY=DHS9172,    JOB02365
+           //         CLASS=T,
+           //   MSGCLASS=A           INSERTED BY SUBMIT EXIT
+         2 /*JOBPARM  L=999
+         3 //LIB JCLLIB ORDER=DHS.PROCLIB
+         4 /*ROUTE PRINT N2R66
+           //**********************************************************************
+         5 //DELETE   EXEC PGM=IEFBR14
+         6 //OUTSEC   DD   DSN=DHS9172.OUTSEC,UNIT=DISK,
+           //         DISP=(MOD,DELETE,DELETE),SPACE=(CYL,0)
+         7 //OUTSEC2  DD   DSN=DHS9172.OUTSEC2,UNIT=DISK,
+           //         DISP=(MOD,DELETE,DELETE),SPACE=(CYL,0)
+           //**********************************************************************
+         8 //PASEC    EXEC MHEZYPLS
+         9 XXMHEZYPLS PROC UNITI=TAPE,DISPI=SHR,SERI=,DSNI=NULLFILE,DCBI=,LABELI=, 00010000
+           XX UNITO=TAPE,DISPO=,FDISPO=PASS,ADISPO=DELETE,SERO=,DSNO=NULLFILE,     00020000
+           XX DCBO=,BLKLNO=19069,PRIMO=30,SECO=2,RLSEO=RLSE,LABELO=,               00030000
+           XX MSSO='VOL=SER',SPACEO=',',USER=MHEALTH,LIB=TESTLIB,LINK=0            00040000
+           XX*                                                                     00050000
+        10 XXEASYPLUS EXEC PGM=EZTPA00                                             00060000
+        11 XXSTEPLIB  DD DSN=IDC.EASYPLUS.LOADLIB,DISP=SHR                         00071001
+        12 XX         DD DSN=IDCSHR.PANSQL.LOAD,DISP=SHR                           00071103
+        13 XX         DD DSN=DB2.SDSNLOAD,DISP=SHR                                 00071200
+        14 XXAUDITS   DD SYSOUT=*                                                  00072000
+        15 XXSYSOUT   DD SYSOUT=*                                                  00073000
+        16 XXSYSPRINT DD SYSOUT=*                                                  00080000
+        17 XXSYSUDUMP DD SYSOUT=*                                                  00090000
+        18 XXSYSSNAP  DD SYSOUT=*                                                  00100000
+        19 XXEZTVFM   DD UNIT=DISK,SPACE=(4096,(500,500),,,ROUND)                  00110000
+        20 XXSYSLIN   DD UNIT=DISK,SPACE=(800,(1,50)),DISP=(,PASS)                 00120000
+        21 XXINPUT1   DD UNIT=(&UNITI),DISP=(&DISPI),VOL=SER=(&SERI),DSN=&DSNI,    00130000
+           XX DCB=(&DCBI),LABEL=(&LABELI)                                          00140000
+           IEFC653I SUBSTITUTION JCL - UNIT=(TAPE),DISP=(SHR),VOL=SER=(),DSN=NULLFILE,DCB=(),LABEL=()
+        22 XXOUTPUT1  DD UNIT=(&UNITO),DISP=(&DISPO,&FDISPO,&ADISPO),DSN=&DSNO,    00150000
+           XX DCB=(&DCBO),LABEL=(&LABELO),                                         00160000
+           XX &MSSO=(&SERO)&SPACEO.SPACE=(&BLKLNO,(&PRIMO,&SECO),&RLSEO)           00160100
+           IEFC653I SUBSTITUTION JCL - UNIT=(TAPE),DISP=(,PASS,DELETE),DSN=NULLFILE,DCB=(),LABEL=(),VOL=SER=(),
+           SPACE=(19069,(30,2),RLSE)
+        23 XXSORTLIB  DD DSN=SYS1.SORTLIB,DISP=SHR                                 00161000
+        24 XXSORTWK01 DD UNIT=DISK,SPACE=(CYL,(1))                                 00170000
+        25 XXSORTWK02 DD UNIT=DISK,SPACE=(CYL,(1))                                 00180000
+        26 XXSORTWK03 DD UNIT=DISK,SPACE=(CYL,(1))                                 00190000
+        27 XXPANDD1   DD DSN=MHEALTH.PANLIB,DISP=SHR                               00200000
+        28 //PASEC    DD   DSN=MH.PAPO.PASEC,DISP=SHR,AMP=('BUFND=20')
+        29 //OUTSEC   DD   DSN=DHS9172.OUTSEC,UNIT=DISK,DISP=(,CATLG),
+           //         DCB=(LRECL=268,BLKSIZE=27872,RECFM=FB),
+           //         SPACE=(CYL,(1,1),RLSE),BUFNO=20
+        30 //OUTSEC2  DD   DSN=DHS9172.OUTSEC2,UNIT=DISK,DISP=(,CATLG),
+           //         DCB=(LRECL=268,BLKSIZE=27872,RECFM=FB),
+           //         SPACE=(CYL,(1,1),RLSE),BUFNO=20
+        31 //INSSN    DD   DSN=DHS9172.PDS.WORK7(INSSN),DISP=SHR,BUFNO=20
+        32 //SYSIN    DD   *
+        33 XXLKED     EXEC PGM=IEWL,COND=(&LINK,LE,EASYPLUS)                       00201000
+           XX*TO EXEC THIS STEP, CODE "LINK=5" WHEN USING PROC                     00202000
+           XX*EXAMPLE  //STEP1 EXEC MHEZYPLS,LINK=5                                00203000
+           IEFC653I SUBSTITUTION JCL - PGM=IEWL,COND=(0,LE,EASYPLUS)
+        34 XXSYSPRINT DD SYSOUT=*                                                  00204000
+        35 XXSYSUT1   DD UNIT=DISK,SPACE=(6144,(50,50),,,ROUND)                    00205000
+        36 XXSYSLIN   DD DSN=*.EASYPLUS.SYSLIN,DISP=(OLD,DELETE)                   00210000
+        37 XXSYSLMOD  DD DSN=&USER..&LIB,DISP=SHR                                  00220000
+           IEFC653I SUBSTITUTION JCL - DSN=MHEALTH.TESTLIB,DISP=SHR
+  STMT NO. MESSAGE
+         8 IEFC001I PROCEDURE MHEZYPLS WAS EXPANDED USING PRIVATE LIBRARY DHS.PROCLIB
+ ICH70001I DHS9172  LAST ACCESS AT 06:56:45 ON MONDAY, OCTOBER 31, 2016
+ IEF236I ALLOC. FOR DHS9172X DELETE
+ IGD103I SMS ALLOCATED TO DDNAME OUTSEC
+ IGD103I SMS ALLOCATED TO DDNAME OUTSEC2
+ IEF142I DHS9172X DELETE - STEP WAS EXECUTED - COND CODE 0000
+ IGD105I DHS9172.OUTSEC                               DELETED,   DDNAME=OUTSEC
+ IGD105I DHS9172.OUTSEC2                              DELETED,   DDNAME=OUTSEC2
+ ************************************************************************************************************************************
+ *                                                                                                                                  *
+ *                                                                                          *
+ *                                                                                                                                  *
+ *                                                                STORAGE                                                           *
+ *  STEP NAME      DELETE       START     06.57.06.73       TYPE       VIRTUAL            TCB     00.00.00.00     TAPE MOUNTS    0  *
+ *  PROGRAM NAME   IEFBR14      END       06.57.06.77       PROGRAM       4K              SRB     00.00.00.00     DISK MOUNTS    0  *
+ *  DISPATCH PRTY         0     ELAPSED   00.00.00.04       SYSTEM      316K          TRAN/ACTV   00.00.00.00                       *
+ *                                                                                                                                  *
+ *  PERF. GROUP           0                        PAGE IN/OUT           0/       0                                                 *
+ *  SERV. UNS/M           0                        VIO PAGE IN/OUT       0/       0                          CONDITION CODE   0000  *
+ *                                                                                                                                  *
+ *                                                                                                                                  *
+ *                                                           INPUT/OUTPUT                                                           *
+ *                                                                                                                                  *
+ *  DDNAME    UNIT      EXCPS         DDNAME    UNIT      EXCPS         DDNAME    UNIT      EXCPS         DDNAME    UNIT      EXCPS *
+ *                                                                                                                                  *
+ *  OUTSEC    D527          0         OUTSEC2   E573          0                                                                     *
+ *                                                                                                                                  *
+ *  EXCP TOTALS:           DASD-         0             TAPE-         0                                                              *
+ *                                                                                                                                  *
+ ************************************************************************************************************************************
+ IEF373I STEP/DELETE  /START 2016305.0657
+ IEF032I STEP/DELETE  /STOP  2016305.0657
+         CPU:     0 HR  00 MIN  00.00 SEC    SRB:     0 HR  00 MIN  00.00 SEC
+         VIRT:     4K  SYS:   316K  EXT:        8K  SYS:    12692K
+         ATB- REAL:                   152K  SLOTS:                     0K
+              VIRT- ALLOC:      13M SHRD:       0M
+ IEF236I ALLOC. FOR DHS9172X EASYPLUS PASEC
+ IEF237I E439 ALLOCATED TO STEPLIB
+ IEF237I DB54 ALLOCATED TO
+ IEF237I E431 ALLOCATED TO
+ IEF237I JES2 ALLOCATED TO AUDITS
+ IEF237I JES2 ALLOCATED TO SYSOUT
+ IEF237I JES2 ALLOCATED TO SYSPRINT
+ IEF237I JES2 ALLOCATED TO SYSUDUMP
+ IEF237I JES2 ALLOCATED TO SYSSNAP
+ IGD101I SMS ALLOCATED TO DDNAME (EZTVFM  )
+         DSN (SYS16305.T065706.RA000.DHS9172X.R0387071    )
+         STORCLAS (TEMPRARY) MGMTCLAS (        ) DATACLAS (DEFAULT)
+         VOL SER NOS= WKH102
+ IGD101I SMS ALLOCATED TO DDNAME (SYSLIN  )
+         DSN (SYS16305.T065706.RA000.DHS9172X.R0387072    )
+         STORCLAS (TEMPRARY) MGMTCLAS (        ) DATACLAS (DEFAULT)
+         VOL SER NOS= WKH101
+ IEF237I DMY  ALLOCATED TO INPUT1
+ IEF237I DMY  ALLOCATED TO OUTPUT1
+ IEF237I E300 ALLOCATED TO SORTLIB
+ IGD101I SMS ALLOCATED TO DDNAME (SORTWK01)
+         DSN (SYS16305.T065706.RA000.DHS9172X.R0387073    )
+         STORCLAS (SCNOVIO) MGMTCLAS (        ) DATACLAS (DEFAULT)
+         VOL SER NOS= WKH105
+ IGD101I SMS ALLOCATED TO DDNAME (SORTWK02)
+         DSN (SYS16305.T065706.RA000.DHS9172X.R0387074    )
+         STORCLAS (SCNOVIO) MGMTCLAS (        ) DATACLAS (DEFAULT)
+         VOL SER NOS= WKH103
+ IGD101I SMS ALLOCATED TO DDNAME (SORTWK03)
+         DSN (SYS16305.T065706.RA000.DHS9172X.R0387075    )
+         STORCLAS (SCNOVIO) MGMTCLAS (        ) DATACLAS (DEFAULT)
+         VOL SER NOS= WKH104
+ IEF237I E00F ALLOCATED TO PANDD1
+ IGD103I SMS ALLOCATED TO DDNAME PASEC
+ IGD101I SMS ALLOCATED TO DDNAME (OUTSEC  )
+         DSN (DHS9172.OUTSEC                              )
+         STORCLAS (STANDARD) MGMTCLAS (STANDARD) DATACLAS (DEFAULT)
+         VOL SER NOS= HSD023
+ IGD101I SMS ALLOCATED TO DDNAME (OUTSEC2 )
+         DSN (DHS9172.OUTSEC2                             )
+         STORCLAS (STANDARD) MGMTCLAS (STANDARD) DATACLAS (DEFAULT)
+         VOL SER NOS= HSD036
+ IGD103I SMS ALLOCATED TO DDNAME INSSN
+ IEF237I JES2 ALLOCATED TO SYSIN
+ IGD103I SMS ALLOCATED TO DDNAME EZOPTBL
+ IEF142I DHS9172X EASYPLUS PASEC - STEP WAS EXECUTED - COND CODE 0000
+ IEF285I   IDC.EASYPLUS.LOADLIB                         KEPT
+ IEF285I   VOL SER NOS= SYH053.
+ IEF285I   IDCSHR.PANSQL.LOAD                           KEPT
+ IEF285I   VOL SER NOS= SHR051.
+ IEF285I   DB2.SDSNLOAD                                 KEPT
+ IEF285I   VOL SER NOS= DB2H01.
+ IEF285I   DHS9172.DHS9172X.JOB02365.D0000102.?         SYSOUT
+ IEF285I   DHS9172.DHS9172X.JOB02365.D0000103.?         SYSOUT
+ IEF285I   DHS9172.DHS9172X.JOB02365.D0000104.?         SYSOUT
+ IEF285I   DHS9172.DHS9172X.JOB02365.D0000105.?         SYSOUT
+ IEF285I   DHS9172.DHS9172X.JOB02365.D0000106.?         SYSOUT
+ IGD105I SYS16305.T065706.RA000.DHS9172X.R0387071     DELETED,   DDNAME=EZTVFM
+ IGD106I SYS16305.T065706.RA000.DHS9172X.R0387072     PASSED,    DDNAME=SYSLIN
+ IEF285I   SYS1.SORTLIB                                 KEPT
+ IEF285I   VOL SER NOS= IPL004.
+ IGD105I SYS16305.T065706.RA000.DHS9172X.R0387073     DELETED,   DDNAME=SORTWK01
+ IGD105I SYS16305.T065706.RA000.DHS9172X.R0387074     DELETED,   DDNAME=SORTWK02
+ IGD105I SYS16305.T065706.RA000.DHS9172X.R0387075     DELETED,   DDNAME=SORTWK03
+ IEF285I   MHEALTH.PANLIB                               KEPT
+ IEF285I   VOL SER NOS= DHS203.
+ IGD104I MH.PAPO.PASEC                                RETAINED,  DDNAME=PASEC
+ IGD104I DHS9172.OUTSEC                               RETAINED,  DDNAME=OUTSEC
+ IGD104I DHS9172.OUTSEC2                              RETAINED,  DDNAME=OUTSEC2
+ IGD104I DHS9172.PDS.WORK7                            RETAINED,  DDNAME=INSSN
+ IEF285I   DHS9172.DHS9172X.JOB02365.D0000101.?         SYSIN
+ IGD104I IDC.EASYPLUS.EZOPTBL                         RETAINED,  DDNAME=EZOPTBL
+ ************************************************************************************************************************************
+ *                                                                                                                                  *
+ *                                                                                           *
+ *                                                                                                                                  *
+ *                                                                STORAGE                                                           *
+ *  STEP NAME      EASYPLUS     START     06.57.06.77       TYPE       VIRTUAL            TCB     00.00.00.09     TAPE MOUNTS    0  *
+ *  PROGRAM NAME   EZTPA00      END       06.57.08.11       PROGRAM    2400K              SRB     00.00.00.00     DISK MOUNTS    0  *
+ *  DISPATCH PRTY         0     ELAPSED   00.00.01.34       SYSTEM      376K          TRAN/ACTV   00.00.01.23                       *
+ *                                                                                                                                  *
+ *  PERF. GROUP           0                        PAGE IN/OUT           0/       0                                                 *
+ *  SERV. UNS/M           0                        VIO PAGE IN/OUT       0/       0                          CONDITION CODE   0000  *
+ *                                                                                                                                  *
+ *                                                                                                                                  *
+ *                                                           INPUT/OUTPUT                                                           *
+ *                                                                                                                                  *
+ *  DDNAME    UNIT      EXCPS         DDNAME    UNIT      EXCPS         DDNAME    UNIT      EXCPS         DDNAME    UNIT      EXCPS *
+ *                                                                                                                                  *
+ *  STEPLIB   E439        679         STEPLIB   DB54          0         STEPLIB   E431          6         EZTVFM    EF20          0 *
+ *  SYSLIN    EF1F          3         SORTLIB   E300          0         SORTWK01  EF5E          0         SORTWK02  EF21          0 *
+ *  SORTWK03  EF22          0         PANDD1    E00F          5         PASEC     E459       1049         PASEC     E474          0 *
+ *  OUTSEC    E604         19         OUTSEC2   E611          1         INSSN     D52A          2         EZOPTBL   E641         15 *
+ *                                                                                                                                  *
+ *  EXCP TOTALS:           DASD-      1779             TAPE-         0                                                              *
+ *                                                                                                                                  *
+ ************************************************************************************************************************************
+ IEF373I STEP/EASYPLUS/START 2016305.0657
+ IEF032I STEP/EASYPLUS/STOP  2016305.0657
+         CPU:     0 HR  00 MIN  00.09 SEC    SRB:     0 HR  00 MIN  00.00 SEC
+         VIRT:  2400K  SYS:   376K  EXT:      832K  SYS:    13244K
+         ATB- REAL:                   232K  SLOTS:                     0K
+              VIRT- ALLOC:      22M SHRD:       0M
+ IEF202I DHS9172X LKED PASEC - STEP WAS NOT RUN BECAUSE OF CONDITION CODES
+ IEF272I DHS9172X LKED PASEC - STEP WAS NOT EXECUTED.
+ ************************************************************************************************************************************
+ *                                                                                                                                  *
+ *                                                                                           *
+ *                                                                                                                                  *
+ *                                                                STORAGE                                                           *
+ *  STEP NAME      LKED         START     06.57.08.11       TYPE       VIRTUAL            TCB     00.00.00.00     TAPE MOUNTS    0  *
+ *  PROGRAM NAME   IEWL         END       06.57.08.11       PROGRAM       0K              SRB     00.00.00.00     DISK MOUNTS    0  *
+ *  DISPATCH PRTY         0     ELAPSED   00.00.00.00       SYSTEM        0K          TRAN/ACTV   00.00.00.00                       *
+ *                                                                                                                                  *
+ *  PERF. GROUP           0                        PAGE IN/OUT           0/       0                                                 *
+ *  SERV. UNS/M           0                        VIO PAGE IN/OUT       0/       0                          CONDITION CODE   0000  *
+ *                                                                                                                                  *
+ *                                                                                                                                  *
+ *                                                           INPUT/OUTPUT                                                           *
+ *                                                                                                                                  *
+ *                                                                                                                                  *
+ *  EXCP TOTALS:           DASD-         0             TAPE-         0                                                              *
+ *                                                                                                                                  *
+ ************************************************************************************************************************************
+ IEF373I STEP/LKED    /START 2016305.0657
+ IEF032I STEP/LKED    /STOP  2016305.0657
+         CPU:     0 HR  00 MIN  00.00 SEC    SRB:     0 HR  00 MIN  00.00 SEC
+         VIRT:     0K  SYS:     0K  EXT:        0K  SYS:        0K
+         ATB- REAL:                     0K  SLOTS:                     0K
+              VIRT- ALLOC:      19M SHRD:       0M
+ IGD103I SMS ALLOCATED TO DDNAME SYS00001
+ IGD104I SYS16305.T065708.RA000.DHS9172X.R0387078     RETAINED,  DDNAME=SYS00001
+ IGD105I SYS16305.T065706.RA000.DHS9172X.R0387072     DELETED,   DDNAME=SYSLIN
+
+ *************************                             KOMAND  ONLINE  COSTING             LEVEL=V700      *************************
+
+                                QUANTITY     RESOURCE                             UNIT           ESTIMATED
+                                MEASURED     DESCRIPTION                          RATE ($)       COST ($)
+
+                                      52     JCL / DATA READ INTERNAL            .15/1000               .01
+                                     449     SYSOUT PRINT RECORDS-LOCAL          .15/1000               .07
+                                 .00003      PROCESSOR HOURS                3,282.00/HOUR               .10
+                                             REQUESTED SHIFT MET
+                                             REVENUE FROM COSTING FACTOR         .25                  - .14
+                                             MULTIPLICATION FACTOR              1.00   *                .18 JOB COST =           .05
+                                             TABLE USED: FTAB#0D1  VERSION: V700
+
+
+ ************************************************************************************************************************************
+ *                                                                                                                                  *
+ *                                                                 LEVEL=V700               *
+ *                                                                                                                                  *
+ *  JOBNAME     DHS9172X           START     06.57.06.73 - 2016.305 -  10/31/2016         TCB     00.00.00.09     TAPE MOUNTS    0  *
+ *  RDR TIME    06.57.06.68        END       06.57.08.12 - 2016.305 -  10/31/2016         SRB     00.00.00.00     DISK MOUNTS    0  *
+ *  RDR DATE    2016.305           ELAPSED   00.00.01.39                              TRAN/ACTV   00.00.01.23                       *
+ *                                                                                                                                  *
+ *  PERF GROUP            0                        PAGE IN/OUT           0/       0       SERVICE CLASS NAME  BATCH                 *
+ *  SERV. UNS/M           0                        VIO PAGE IN/OUT       0/       0                     COMPLETION STATUS - NORMAL  *
+ *                                                                                                                                  *
+ *  JOB CLASS   T                                  PROGRAMMER    WRIGHT                                          SYSTEM ID    2460  *
+ *                                                                                                                                  *
+ *  JOB NUMBER  JOB02365                           ACCT. DATA   3206100TM002                                     SP7.2.2      JES2  *
+ *                                                                                                                                  *
+ *                                                                                                                                  *
+ *  EXCP TOTALS:           DASD-      1779             TAPE-         0                                                              *
+ *                                                                                                                                  *
+ ************************************************************************************************************************************
+ IEF375I  JOB/DHS9172X/START 2016305.0657
+ IEF033I  JOB/DHS9172X/STOP  2016305.0657
+         CPU:     0 HR  00 MIN  00.09 SEC    SRB:     0 HR  00 MIN  00.00 SEC
+110/31/16 06.57.06                            CA Easytrieve 11.6    SP0                                    PAGE          1
+                                      
+0Programs and all supporting materials copyright (c) 2010 CA. All Rights Reserved
+-            1
+             2  FILE PASEC VS
+             3      %EZPASEC
+             4  MACRO                                                                                          -EZPASEC
+             5      SC-EZPASEC           1 268  A                                                              -EZPASEC
+             6      SC-KEY               1  38  A                                                              -EZPASEC
+             7      SC-DEPARTMENT        1   2  A                                                              -EZPASEC
+             8      SC-FACILITY          3   3  A                                                              -EZPASEC
+             9      SC-INCLUDE-GROUP     6  20  A                                                              -EZPASEC
+            10      SC-ACTION           26   4  A                                                              -EZPASEC
+            11      SC-GROUP            26   3  A                                                              -EZPASEC
+            12      SC-USERID           30   8  A                                                              -EZPASEC
+            13      SC-GROUP-ACTION     30   4  A                                                              -EZPASEC
+            14      SC-ACTIVE           38   1  A                                                              -EZPASEC
+            15      SC-EXCLUDE-GROUP    39  20  A                                                              -EZPASEC
+            16      SC-AUTH-LEVEL       59   2  A                                                              -EZPASEC
+            17      SC-PRINTER-ID       61   8  A                                                              -EZPASEC
+            18      SC-USER-SSN         69   9  A                                                              -EZPASEC
+            19      SC-LOCK-MESSAGE     69  45  A                                                              -EZPASEC
+            20      SC-USER-NAME        78  19  A                                                              -EZPASEC
+            21      SC-USER-PHONE       97  10  A                                                              -EZPASEC
+            22      SC-USER-LOCATION   107  20  A                                                              -EZPASEC
+            23      SC-PAY-PERIOD       69   6  A                                                              -EZPASEC
+            24      SC-PAY-PERIOD-CY    69   4  A                                                              -EZPASEC
+            25      SC-PAY-PERIOD-NUM   73   2  A                                                              -EZPASEC
+            26      SC-CYCLE-BEGIN-DATE 75   8  A                                                              -EZPASEC
+            27      SC-CYCLE-BEGIN-CY   75   4  A                                                              -EZPASEC
+            28      SC-CYCLE-BEGIN-MM   79   2  A                                                              -EZPASEC
+            29      SC-CYCLE-BEGIN-DD   81   2  A                                                              -EZPASEC
+            30      SC-CYCLE-END-DATE   83   8  A                                                              -EZPASEC
+            31      SC-CYCLE-END-CY     83   4  A                                                              -EZPASEC
+            32      SC-CYCLE-END-MM     87   2  A                                                              -EZPASEC
+            33      SC-CYCLE-END-DD     89   2  A                                                              -EZPASEC
+            34      SC-DATE-GRANTED    127  26  A                                                              -EZPASEC
+            35      SC-GRANTOR         153   8  A                                                              -EZPASEC
+            36      SC-GRANTOR-SSN     161   9  A                                                              -EZPASEC
+            37      SC-GRANTOR-NAME    170  19  A                                                              -EZPASEC
+            38      SC-BEGIN-TIME      189  26  A                                                              -EZPASEC
+            39      SC-END-TIME        215  26  A                                                              -EZPASEC
+            40      SC-MONDAY          241   1  A                                                              -EZPASEC
+            41      SC-TUESDAY         242   1  A                                                              -EZPASEC
+            42      SC-WEDNESDAY       243   1  A                                                              -EZPASEC
+            43      SC-THURSDAY        244   1  A                                                              -EZPASEC
+            44      SC-FRIDAY          245   1  A                                                              -EZPASEC
+            45      SC-SATURDAY        246   1  A                                                              -EZPASEC
+            46      SC-SUNDAY          247   1  A                                                              -EZPASEC
+            47      SC-AIX-KEY         248  17  A                                                              -EZPASEC
+            48      SC-AIX-USERID      248   8  A                                                              -EZPASEC
+            49      SC-AIX-ACTION      256   4  A                                                              -EZPASEC
+            50      SC-AIX-DEPARTMENT  260   2  A                                                              -EZPASEC
+            51      SC-AIX-FACILITY    262   3  A                                                              -EZPASEC
+            52      SC-AIX-INC-GROUP   265   4  A                                                              -EZPASEC
+            53
+
+110/31/16 06.57.06                            CA Easytrieve 11.6    SP0                                    PAGE          2
+                                      
+0Programs and all supporting materials copyright (c) 2010 CA. All Rights Reserved
+0           54  FILE OUTSEC
+            55      COPY PASEC
+            56
+            57  FILE OUTSEC2
+            58
+            59  FILE INSSN TABLE
+            60      ARG  1  9  A
+            61      DESC 1  9  A
+            62
+            63  WS-SSN   W  9  A
+            64
+            65  JOB INPUT PASEC
+            66      SEARCH INSSN WITH PASEC:SC-USER-SSN GIVING WS-SSN
+            67      IF PASEC:SC-USER-SSN = WS-SSN
+            68          PUT OUTSEC FROM PASEC
+            69      END-IF
+            70
+            71  JOB INPUT ( OUTSEC KEY ( OUTSEC:SC-USER-SSN ) )
+            72      IF DUPLICATE OUTSEC
+            73          IF FIRST-DUP OUTSEC
+            74              PUT OUTSEC2 FROM OUTSEC
+            75          END-IF
+            76      ELSE
+            77          PUT OUTSEC2 FROM OUTSEC
+            78      END-IF
+
+110/31/16 06.57.06                            CA Easytrieve 11.6    SP0                                    PAGE          3
+                                      
+0Programs and all supporting materials copyright (c) 2010 CA. All Rights Reserved
+0Compile Summary
+0 Diagnostics Count
+0  There are no syntax errors. There are no name errors. There are no warning messages.
+0 Compile Options
+0  Compile Directives
+    ASCSIGN(D)                   LISTPRM(YES)                  module(easyplus)            UPDTIDM(N)
+    BIND(DYNAMIC)                LISTUC(NO)                    userid()                    UPDTVS(YES)
+    CALCDUP(NO)                  MACDDN(PANDD)                SCANCOLE(72)                 VERFILE(HIGHEST)
+    CALL(DYNAMIC)                MACMOD(PANMODI)              SCANCOLS(1)                  VERREC(HIGHEST)
+    CLIST(NO)                    MACTYPE(PAN)                 SQLID()                      VERSCHM(HIGHEST)
+    COMPILE(NO)                  MAC#LIB(2)                   PLANOPTS()                   WARNCC(Z)
+    DMAP(NO)                     MONEY($)                     SQLSYNTAX(FULL)              WARNSYM(+)
+    ERORSYM($)                   PLAN                         SYNTAX(NO)                   WKDSNPF(EZT)
+    ENVIRONMENT(NONE)             name  ()                    STATE(YES)                   XREF(NO)
+    FLDCHK(YES)                   module()                    USERID()
+    LINK()                       PMAP(NO)                     UPDTDLI(YES)
+    LISTFIL(YES)                 PREPNAME                     UPDTIDD(YES)
+0  Report Generation Options
+    ACROSS(4)                    LINESIZ(132)                 SKIP(0)                      TALYSIZ(2)
+    DOWN(6)                      NEWPAGE(NO)                  SPACE(3)                     TITLSKP(3)
+    DTLCTL(FIRST)                PAGESIZ(58)                  SPREAD(NO)                   TOTALWRD(TOTAL)
+    FINALWRD(FINAL)              PAGEWRD(PAGE)                SUMCTL(HIAR)
+    LABLSIZ(30)                  PHYSPAGE(0)                  SUMSPAC(3)
+0 Execution Override Options
+0   ABEXIT(SNAP)                 MTVSERR(NO)                  SORTMAX(YES)                 VFMSPAC(64)
+    ALTSEQU(NO)                  NUMWORK(3)                   SORTSIZ(0)                   WORKFILE(NO)
+    BLOCK0(N)                    SINXIT()                     SORTWRK(SYSDA)               WORKFSPA(20)
+    CALL(AMODE24)                SORTMSG(DEFAULT)             SPRTXIT()
+    PFLOW(NO)                    SORTMSR(PRINTER)             SSID()
+    FLOWSIZ(100)                 SORTRLS(0)                   STATE(YES)
+0 Source input file
+0   SYSIN
+0 Macro library search list
+0   ( .; )
+1         FILE STATISTICS - CA Easytrieve 11.6 SP0-10/31/16-06.57.06AM-UNNAMED JOB:STMT    65
+0         File Name              RecCount   Mode       Org      Format    RecLen  BlkLen   Status
+          OUTSEC                        890 Output  Sequential     Fixed      268  27872   Closed
+          INSSN                           2 Input   Sequential     Fixed       80  27920   End of file
+          PASEC                      77,440 Input     VSAM       Undefined    268    268   End of file
+1         FILE STATISTICS - CA Easytrieve 11.6 SP0-10/31/16-06.57.06AM-UNNAMED JOB:STMT    71
+0         File Name              RecCount   Mode       Org      Format    RecLen  BlkLen   Status
+          OUTSEC2                         4 Output  Sequential     Fixed      268  27872   Closed
+          OUTSEC                        890 Input   Sequential     Fixed      268  27872   End of file
