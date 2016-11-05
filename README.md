@@ -36,7 +36,8 @@ One of the imputs is the SSN you wish to look for.
 <li>Output to job listing.</li>
 <li>Formatted reports listing the questionable access</li>
 <p>
-Note the CPU time to read all of the records and process them is only .00019 hours.
+Note the CPU time to interpret the source, read and process 983,462 transaction records is only .00019 hours.
+It only gives me a little bit of CPU at a time, hence TSO ( time sharing option ) so it was 6.31 seconds of clock time.
 </p>
 <h1>References</h1>
 <hr />
