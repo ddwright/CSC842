@@ -1,7 +1,7 @@
 # CSC842
 
 #Security Tool Development
-<h1>Process Tracker</h1>
+<h1>Log Checker</h1>
 <h1>Overview</h1>
 <hr />
 <p>
