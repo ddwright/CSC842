@@ -39,7 +39,7 @@
 //         DISP=OLD
 //INSEC    DD  DSN=DHS9172.OUTSEC2,DISP=SHR,BUFNO=20
 //SYSIN  DD *
-PARM DEBUG(CLIST XREF SHORT)                                             1/20/92
+PARM DEBUG(CLIST XREF SHORT)                                             
 *
 FILE REPORTA  PRINTER
 FILE REPORTB  PRINTER
