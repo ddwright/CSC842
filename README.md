@@ -6,7 +6,7 @@
 <hr />
 <p>
 This projects reads a security file and cross references that with a log file to make a user with access to a timekeeping system is not performing transactions on themselves.
-Sometimes we get requests from labor relations to look into possible fraud.  Sometimes timekeepers have been found giving themselves extra benefit time or not reporting benefit time they used.
+Sometimes we get requests from labor relations to look into possible fraud.  Timekeepers have been found giving themselves extra benefit time or not reporting benefit time they used.
 These programs pull the individuals security record, we are interested in userid and SSN.  Userid of the individual doing the transaction is in the log and time entries done are keyed by SSN.
 </p>
 <p>
