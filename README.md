@@ -16,7 +16,7 @@ I thought I would demonstrate the benefits of that platform.  Plus I need this f
 <p>
 These programs are written in Easytrieve Plus, a 4GL, mainly used for report generation but great for other puposes as well.
 </p>
-<p>Youtube Link : </p>
+<p>Youtube Link : https://youtu.be/rEw6t-Ku24c </p>
 <h1>Dependencies</h1>
 <hr />
 <ul>
