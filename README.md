@@ -1,3 +1,4 @@
+
 # CSC842
 
 #Security Tool Development
@@ -31,6 +32,7 @@ Start up Powershell
 <hr />
 <p>http://computersecurity.wikia.com/wiki/Alternate_data_stream</p>
 <p>https://en.wikipedia.org/wiki/NTFS#Alternate_data_streams_.28ADS.29</p>
+<p>http://windowsitpro.com/powershell/get-hex-dumps-files-powershell - Hex Viewing Function</p>
 <h1>Future Work</h1>
 <hr />
 <ul><li>Extract List to File</li></ul>
