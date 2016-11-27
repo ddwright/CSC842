@@ -6,7 +6,7 @@
 <h1>Overview</h1>
 <hr />
 <p>
-This tool allows to to select a directory, lists all of the ADS files that may exist within the directory chosen and allows you to
+This tool allows you to select a directory, lists all of the ADS files that may exist within the directory chosen and allows you to
 view the streams.
 
 http://computersecurity.wikia.com/wiki/Alternate_data_stream - Alternate Data Streams (ADS) provides hackers with a method of hiding rootkits
